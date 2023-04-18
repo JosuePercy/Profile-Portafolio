@@ -8,7 +8,6 @@ import { IconButton } from '@mui/material';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { it } from 'node:test';
 
 const menuItems = [
     { text: 'Inicio', href: '/' },
