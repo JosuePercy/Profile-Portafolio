@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
 
-import { ActiveLink } from './ActiveLink';
-
 import styles from "./menu.module.css";
 
+import { ActiveLink } from './ActiveLink';
+
 import { IconButton } from '@mui/material';
+
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-
-import backgroundaProfile from '../../../public/image/hero-banner4.jpg'
-import { CSSProperties } from "react";
+import { it } from 'node:test';
 
 const menuItems = [
     { text: 'Inicio', href: '/' },
@@ -19,7 +18,7 @@ const menuItems = [
 ]
 
 
-
+//Funcion para responsive movil, adaptable a cualquier dispositivo
 export const NavBar = () => {
 
     const [isOpen, setIsOpen] = useState(false)

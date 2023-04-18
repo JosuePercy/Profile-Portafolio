@@ -1,7 +1,7 @@
 /* Encabezado del menú */
 .main-header {
   height: 100vh;
-  background: -webkit-linear-gradient(#18181b9a, #18181ba7, #18181ba3),
+  background: -webkit-linear-gradient(#18181bc5, #18181bb6, #18181bb4),
     url(https://www.enzosaso.com/images/hero-banner4.jpg);
   /* background-color: green; */
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 .button-container {
-  display: none;
+  display: none !important;
 }
 
 .button-container-close {
@@ -66,16 +66,17 @@
   /* background-color: rgb(255, 0, 0); */
   height: 70px;
   justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 30px;
   margin: auto;
   max-width: 1920px;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   width: 100%;
   width: calc(100% - 60px);
+  transform: translate(-50%, -0%);
+  top: 0;
+  left: 50%;
 }
 
 /* Efecto before de los elementos del menú */
@@ -110,7 +111,7 @@
     display: none;
   }
   .button-container {
-    display: block;
+    display: block !important;
   }
   .menu-group {
     display: none;
@@ -132,7 +133,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     width: 100%;
     width: calc(100% - 60px);
   }
@@ -148,6 +149,58 @@
     width: 100%;
     margin-top: 15px;
     position: relative;
+  }
+}
+@media screen and (max-width: 1408px) {
+  .introduction-profile h1 {
+    color: red !important;
+    font-size: 60px;
+    padding-left: 40px;
+  }
+  .introduction-profile p {
+    color: green !important;
+    padding-left: 40px;
+    font-size: 20px;
+  }
+  .introduction-profile {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .flexbox {
+    z-index: 9999;
+  }
+  .introduction-profile {
+    text-align: center;
+  }
+  .row-align-items-center {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    padding-top: 70px;
+  }
+
+  .introduction-profile p {
+    position: relative;
+    top: 10px;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 0;
+  }
+
+  .introduction-profile h1 {
+    color: white !important;
+    font-size: 50px !important;
+    padding: 0;
+    margin: 9px 0px 13px 3px !important;
+  }
+
+  .profile-photo {
+    position: relative;
+    bottom: 40px;
+    padding: 0 !important;
+    /* text-align: center; */
   }
 }
 
@@ -181,17 +234,18 @@
   /* background-color: red; */
   margin: auto;
   height: 100%;
+  flex-wrap: wrap;
 }
 .introduction-profile {
   /* background-color: #2a7cce; */
 }
 
 .introduction-profile {
-  width: 50%;
+  flex-basis: 50%;
 }
 .introduction-profile p {
   color: #fff;
-  font-size: 19px;
+  font-size: 23px;
   margin: 7px 0px;
 }
 .introduction-profile h1 {
@@ -206,4 +260,10 @@
 .profile-photo {
   border-radius: 150px;
   animation: border-transform 10s linear infinite alternate forwards;
+  width: 70%;
+  padding-left: 50px;
 }
+/* .aling-center-flexbox {
+  width: 100%;
+  background-color: red;
+} */
