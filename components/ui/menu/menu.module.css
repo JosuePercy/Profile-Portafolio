@@ -236,7 +236,7 @@
 
   .profile-photo {
     position: relative;
-    bottom: 60px;
+    bottom: 77px;
     padding: 0 !important;
     /* text-align: center; */
   }
@@ -285,6 +285,7 @@
   color: #fff;
   font-size: 23px;
   margin: 7px 0px;
+  line-height: 1.5 !important;
 }
 .introduction-profile h1 {
   color: #fff;
