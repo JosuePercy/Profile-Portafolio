@@ -241,6 +241,43 @@
     /* text-align: center; */
   }
 }
+@media screen and (max-width: 415px) {
+  .flexbox {
+    z-index: 9999;
+  }
+  .introduction-profile {
+    text-align: center;
+  }
+  .row-align-items-center {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    padding-top: 70px;
+  }
+
+  .introduction-profile p {
+    position: relative;
+    top: 10px;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 0;
+    line-height: 1.5;
+    margin: 0px 8px !important;
+  }
+
+  .introduction-profile h1 {
+    color: white !important;
+    font-size: 50px !important;
+    padding: 0;
+    margin: 10px 0px 0px 3px !important;
+  }
+
+  .profile-photo {
+    position: relative;
+    bottom: 77px;
+    padding: 0 !important;
+    /* text-align: center; */
+  }
+}
 
 .main-header {
   /* background-color: red; */
@@ -284,7 +321,7 @@
 .introduction-profile p {
   color: #fff;
   font-size: 23px;
-  margin: 7px 0px;
+  margin: 7px 8px;
   line-height: 1.5 !important;
 }
 .introduction-profile h1 {
