@@ -202,6 +202,10 @@
     padding: 0 !important;
     /* text-align: center; */
   }
+  .container-buttom {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -240,6 +244,10 @@
     padding: 0 !important;
     /* text-align: center; */
   }
+  .container-buttom {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 415px) {
   .flexbox {
@@ -277,8 +285,9 @@
     padding: 0 !important;
     /* text-align: center; */
   }
-  .two {
-    margin: auto;
+  .container-buttom {
+    width: 50%;
+    margin: 0 auto;
   }
 }
 
@@ -346,8 +355,7 @@
   width: 100%;
   background-color: red;
 } */
-
-.handle-buttom {
-  background-color: red;
-  margin-top: 20px;
+.container-buttom {
+  width: 50%;
+  padding: 25px 0px;
 }

@@ -5,20 +5,20 @@ export const ButtomConfetti = () => {
 
   const handleDownloadCV = () => {
     // TODO: Agregar la lógica para descargar el archivo PDF
-    console.log('Descargando CV...');
-    fetch(`download/CV/cv-Josue-Huallullo.pdf`)
-      .then(response => response.blob())
-      .then(blob => {
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'cv-Josue-Huallullo.pdf';
-        a.style.display = 'none'; // Oculta el enlace del usuario
-        document.body.appendChild(a); // Agrega el enlace al documento
-        a.click(); // Inicia la descarga del archivo
-        document.body.removeChild(a); // Elimina el enlace del documento
-      })
-      .catch(error => console.error(error));
+    // console.log('Descargando CV...');
+    // fetch(`/download/CV/cv-Josue-Huallullo.pdf`)
+    //   .then(response => response.blob())
+    //   .then(blob => {
+    //     const url = URL.createObjectURL(blob);
+    //     const a = document.createElement('a');
+    //     a.href = url;
+    //     a.download = 'cv-Josue-Huallullo.pdf';
+    //     a.style.display = 'none'; // Oculta el enlace del usuario
+    //     document.body.appendChild(a); // Agrega el enlace al documento
+    //     a.click(); // Inicia la descarga del archivo
+    //     document.body.removeChild(a); // Elimina el enlace del documento
+    //   })
+    //   .catch(error => console.error(error));
   };
 
   const handleConfetti = () => {
@@ -30,22 +30,22 @@ export const ButtomConfetti = () => {
       origin: {
         x: 0.3,
         // since they fall down, start a bit higher than randomm
-        y: 0
+        y: 0.7
       }
     });
   }
 
   return (
-
-    <Button color={'gradient'}
-      onClick={() => {
-        handleConfetti();
-        handleDownloadCV();
-      }}
-
-      style={{ margin: '20px auto', }}
-    >
-      Descargar CV
-    </Button>
+    <div className={`${styles['container-buttom']}`}>
+      <Button color={'gradient'}
+        onClick={() => {
+          handleConfetti();
+          handleDownloadCV();
+        }}
+        style={{ display: 'inline-block' }}
+      >
+        Descargar CV
+      </Button>
+    </div>
   )
 }

@@ -28,6 +28,7 @@ export const NavBar = () => {
         if (isOpen) setIsOpen(false)
         else setIsOpen(true)
     }
+
     return (
         <header className={styles['main-header']}>
             <div className={styles['align-elements-center']}>
