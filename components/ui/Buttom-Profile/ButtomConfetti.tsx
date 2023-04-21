@@ -30,7 +30,7 @@ export const ButtomConfetti = () => {
       origin: {
         x: 0.3,
         // since they fall down, start a bit higher than randomm
-        y: 0.7
+        y: 0.5
       }
     });
   }
