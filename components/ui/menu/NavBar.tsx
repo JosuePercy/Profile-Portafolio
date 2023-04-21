@@ -8,6 +8,8 @@ import { IconButton } from '@mui/material';
 
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { ButtomConfetti } from '../Buttom-Profile';
+
 
 const menuItems = [
     { text: 'Inicio', href: '/' },
@@ -26,7 +28,6 @@ export const NavBar = () => {
         if (isOpen) setIsOpen(false)
         else setIsOpen(true)
     }
-
     return (
         <header className={styles['main-header']}>
             <div className={styles['align-elements-center']}>
@@ -54,7 +55,9 @@ export const NavBar = () => {
                     <div className={styles['introduction-profile']}>
                         <p>Hola, mi nombre es</p>
                         <h1> Josue Percy</h1>
+
                         <p>Soy desarrollador web, autodidacta en el aprendizaje, esperó que el portafolio sea de curiosidad para algunas personas y disfruten mis proyectos🚀</p>
+                        <ButtomConfetti />
                     </div>
                     <div className={styles['introduction-profile']}>
                         <img src='../../../image/perfil23.jpg' className={styles['profile-photo']} />

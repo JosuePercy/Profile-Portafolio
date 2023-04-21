@@ -277,6 +277,9 @@
     padding: 0 !important;
     /* text-align: center; */
   }
+  .two {
+    margin: auto;
+  }
 }
 
 .main-header {
@@ -343,3 +346,8 @@
   width: 100%;
   background-color: red;
 } */
+
+.handle-buttom {
+  background-color: red;
+  margin-top: 20px;
+}
