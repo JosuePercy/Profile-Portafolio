@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 
 import styles from "./menu.module.css";
 
@@ -23,16 +23,36 @@ const menuItems = [
 export const NavBar = () => {
 
     const [isOpen, setIsOpen] = useState(false)
-
+    const [isScroll, setIsScroll] = useState(false)
     const onClickMenu = () => {
         if (isOpen) setIsOpen(false)
         else setIsOpen(true)
     }
+    const onScroll = useCallback(() => {
+        const { pageYOffset, scrollY } = window;
+        console.log("yOffset", pageYOffset, "scrollY", scrollY);
+        if (pageYOffset > 0) {
+            setIsScroll(true)
+        } else {
+            setIsScroll(false)
+        }
+    }, []);
+
+
+    useEffect(() => {
+        console.log("dddddddd")
+        window.addEventListener("scroll", onScroll, { passive: true });
+        // remove event on unmount to prevent a memory leak
+        // return () => {
+        //     console.log("return")
+        //     document.removeEventListener("scroll", onScroll);
+        // }
+    }, []);
 
     return (
         <header className={styles['main-header']}>
             <div className={styles['align-elements-center']}>
-                <div className={styles['flexbox']}>
+                <div className={`${styles['flexbox']} ${isScroll ? styles['is-sticky'] : ''}`}>
                     <div className={`${styles['con']}`}>
                         <img className={`${styles['logo-header']}`} src='../../../image/3.png' />
                         <img className={`${styles['img-logo-responsive']} `} src='../../../image/2.png' />
