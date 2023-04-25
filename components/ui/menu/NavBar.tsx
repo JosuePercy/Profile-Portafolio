@@ -18,7 +18,6 @@ const menuItems = [
     { text: 'About Me', href: '/About' }
 ]
 
-
 //Funcion para responsive movil, adaptable a cualquier dispositivo
 export const NavBar = () => {
 
@@ -31,7 +30,7 @@ export const NavBar = () => {
     const onScroll = useCallback(() => {
         const { pageYOffset, scrollY } = window;
         console.log("yOffset", pageYOffset, "scrollY", scrollY);
-        if (pageYOffset > 0) {
+        if (pageYOffset > 100) {
             setIsScroll(true)
         } else {
             setIsScroll(false)
@@ -45,9 +44,10 @@ export const NavBar = () => {
         // remove event on unmount to prevent a memory leak
         // return () => {
         //     console.log("return")
-        //     document.removeEventListener("scroll", onScroll);
+        document.removeEventListener("scroll", onScroll);
         // }
     }, []);
+
 
     return (
         <header className={styles['main-header']}>

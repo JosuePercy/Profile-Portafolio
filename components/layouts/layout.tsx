@@ -4,8 +4,8 @@ import { NavBar } from "../ui"
 
 export const Layout = () => {
     // useEffect(() => {
-    //     console.log("Width: " + window.innerWidth)
-    //     console.log("Height: " + window.innerHeight)
+    //     console.log("Width : movil: App" + window.innerWidth)
+    //     console.log("Height : movil App" + window.innerHeight)
     //     alert("Width: " + window.innerWidth)
     //     alert("Height: " + window.innerHeight)
     // }, [])

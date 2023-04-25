@@ -8,8 +8,7 @@ export const ButtomConfetti = () => {
     // console.log('Descargando CV...');
     // fetch(`/download/CV/cv-Josue-Huallullo.pdf`)
     //   .then(response => response.blob())
-    //   .then(blob => {
-    //     const url = URL.createObjectURL(blob);
+    //   .then(blob => {   
     //     const a = document.createElement('a');
     //     a.href = url;
     //     a.download = 'cv-Josue-Huallullo.pdf';
@@ -28,9 +27,9 @@ export const ButtomConfetti = () => {
       startVelocity: 30,
       spread: 360,
       origin: {
-        x: 0.3,
+        x: 0.5,
         // since they fall down, start a bit higher than randomm
-        y: 0.5
+        y: 0.4
       }
     });
   }

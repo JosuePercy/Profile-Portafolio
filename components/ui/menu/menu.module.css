@@ -66,12 +66,12 @@
   /* background-color: rgb(255, 0, 0); */
   height: 70px;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 12px 30px;
   margin: auto;
   max-width: 1920px;
   align-items: center;
-  /* position: absolute; */
-  position: fixed;
+  position: absolute;
+  /* position: fixed; */
   width: 100%;
   width: calc(100% - 60px);
   transform: translate(-50%, -0%);
@@ -133,7 +133,7 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     width: calc(100% - 60px);
   }
@@ -152,13 +152,14 @@
   }
 }
 @media screen and (max-width: 1408px) {
+  /* Responsive Menu butto */
   .introduction-profile h1 {
-    color: red !important;
+    /* color: red !important; */
     font-size: 60px;
     padding-left: 40px;
   }
   .introduction-profile p {
-    color: green !important;
+    /* color: green !important; */
     padding-left: 40px;
     font-size: 20px;
   }
@@ -175,7 +176,7 @@
 
 @media screen and (max-width: 473px) {
   .flexbox {
-    z-index: 9999;
+    z-index: 2;
   }
   .introduction-profile {
     text-align: center;
@@ -202,6 +203,7 @@
   }
 
   .profile-photo {
+    width: 70% !important;
     position: relative;
     bottom: 40px;
     padding: 0 !important;
@@ -216,7 +218,7 @@
 
 @media screen and (max-width: 360px) {
   .flexbox {
-    z-index: 9999;
+    z-index: 29;
   }
   .introduction-profile {
     text-align: center;
@@ -258,7 +260,7 @@
 }
 @media screen and (max-width: 415px) {
   .flexbox {
-    z-index: 9999;
+    z-index: 2;
   }
   .introduction-profile {
     text-align: center;
@@ -289,6 +291,62 @@
   .profile-photo {
     position: relative;
     bottom: 77px;
+    padding: 0 !important;
+    /* text-align: center; */
+  }
+  .container-buttom {
+    width: 50%;
+    margin: 0 auto;
+    padding: 11px 40px !important;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .introduction-profile h1 {
+    font-size: 46px !important;
+    color: #fff !important;
+  }
+  .introduction-profile p {
+    font-size: 18px !important;
+    color: #fff !important;
+  }
+  .container-buttom {
+    margin-top: 13px !important;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .flexbox {
+    z-index: 2;
+  }
+  .introduction-profile {
+    text-align: center;
+  }
+  .row-align-items-center {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    padding-top: 70px;
+  }
+
+  .introduction-profile p {
+    position: relative;
+    top: 10px;
+    color: #fff !important;
+    font-size: 16px !important;
+    padding: 0;
+  }
+
+  .introduction-profile h1 {
+    color: white !important;
+    font-size: 50px !important;
+    padding: 0;
+    margin: 9px 0px 13px 3px !important;
+  }
+
+  .profile-photo {
+    width: 70% !important;
+    position: relative;
+    bottom: 40px;
     padding: 0 !important;
     /* text-align: center; */
   }
@@ -368,8 +426,24 @@
   padding: 25px 0px;
 }
 
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1);
+  }
+}
+
 .is-sticky {
-  background-color: #fff;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  transition: background-color 0.5s ease;
+  animation: fadeInDown 0.5s ease-in-out 0s 1 normal none running;
+  z-index: 9999; /* valor alto */
 }
 .is-sticky a {
   color: #383838;
