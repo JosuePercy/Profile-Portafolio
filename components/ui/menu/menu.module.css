@@ -74,9 +74,9 @@
   /* position: fixed; */
   width: 100%;
   width: calc(100% - 60px);
-  transform: translate(-50%, -0%);
+  /* transform: translate(-50%, -0%); */
   top: 0;
-  left: 50%;
+  /* left: 50%; */
 }
 
 /* Efecto before de los elementos del menú */
@@ -425,25 +425,24 @@
   width: 50%;
   padding: 25px 0px;
 }
-
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-100%);
   }
   100% {
     opacity: 1;
-    transform: translateY(1);
+    transform: translateY(0%);
   }
 }
-
 .is-sticky {
   position: fixed;
   top: 0;
   background-color: #ffffff;
   transition: background-color 0.5s ease;
   animation: fadeInDown 0.5s ease-in-out 0s 1 normal none running;
-  z-index: 9999; /* valor alto */
+  z-index: 4; /* valor alto */
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 }
 .is-sticky a {
   color: #383838;
