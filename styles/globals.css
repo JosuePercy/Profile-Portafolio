@@ -6,6 +6,9 @@ body {
   margin-bottom: 15px;
   font-size: 50px;
 }
+.card-icon > div {
+  margin: 0;
+}
 .card-icon .card-img-icon {
   background: #207ede;
   height: 4.3rem;
@@ -21,5 +24,5 @@ body {
 }
 
 .container-ability {
-  padding-top: 100px;
+  padding-top: 50px;
 }
