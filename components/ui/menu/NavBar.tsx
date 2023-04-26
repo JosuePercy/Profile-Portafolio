@@ -42,10 +42,10 @@ export const NavBar = () => {
         console.log("dddddddd")
         window.addEventListener("scroll", onScroll, { passive: true });
         // remove event on unmount to prevent a memory leak
-        // return () => {
-        //     console.log("return")
-        document.removeEventListener("scroll", onScroll);
-        // }
+        return () => {
+            //     console.log("return")
+            document.removeEventListener("scroll", onScroll);
+        }
     }, []);
 
 

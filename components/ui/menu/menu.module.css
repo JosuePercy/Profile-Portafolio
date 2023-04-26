@@ -456,3 +456,7 @@
 .is-sticky .logo-header {
   display: none;
 }
+
+.is-sticky.flexbox {
+  box-shadow: 0 2px 28px 0 rgb(0 0 0 / 14%);
+}

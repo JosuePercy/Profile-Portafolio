@@ -2,3 +2,24 @@ body {
   margin: 0;
   padding: 0;
 }
+.title-section {
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+.card-icon .card-img-icon {
+  background: #207ede;
+  height: 4.3rem;
+  width: 4.3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-icon .card-img-icon img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.container-ability {
+  padding-top: 100px;
+}

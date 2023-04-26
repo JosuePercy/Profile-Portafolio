@@ -1,6 +1,7 @@
 import { Button } from '@nextui-org/react';
 import confetti from 'canvas-confetti';
 import styles from "./../menu/menu.module.css";
+import DownloadIcon from '@mui/icons-material/Download';
 export const ButtomConfetti = () => {
 
   const handleDownloadCV = () => {
@@ -8,7 +9,8 @@ export const ButtomConfetti = () => {
     // console.log('Descargando CV...');
     // fetch(`/download/CV/cv-Josue-Huallullo.pdf`)
     //   .then(response => response.blob())
-    //   .then(blob => {   
+    //   .then(blob => {
+    //     const url = URL.createObjectURL(blob)
     //     const a = document.createElement('a');
     //     a.href = url;
     //     a.download = 'cv-Josue-Huallullo.pdf';
@@ -42,6 +44,7 @@ export const ButtomConfetti = () => {
           handleDownloadCV();
         }}
         style={{ display: 'inline-block' }}
+        icon={<DownloadIcon />}
       >
         Descargar CV
       </Button>
