@@ -16,11 +16,10 @@ const HomePage = () => {
             >
               Lo que puedo hacer
             </Typography>
-            <Grid container spacing={2} marginTop={7}
-            >
+            <Grid container spacing={2} marginTop={7}>
               {
                 [1, 2, 3, 4, 5, 6].map(i => {
-                  return <Grid item xs={4} key={i}>
+                  return <Grid item key={i} xs={12} sm={6} md={4}>
                     <Card sx={{ marginBottom: 10 }}
                       style={{ boxShadow: 'inherit' }}
                     >
