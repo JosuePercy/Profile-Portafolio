@@ -1,9 +1,15 @@
 import { Layout } from "@/components/layouts"
-import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea } from "@mui/material";
-import CloseIcon from '@mui/icons-material/Close';
+
 import Inventory2Icon from '@mui/icons-material/Inventory2';
+
 import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
+
+import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea } from "@mui/material";
 import FileCopyIcon from '@mui/icons-material/FileCopy';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ContactsIcon from '@mui/icons-material/Contacts';
+import ComputerIcon from '@mui/icons-material/Computer';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const HomePage = () => {
   return (
@@ -32,6 +38,30 @@ const HomePage = () => {
                   title={"Personal o portafolio"}
                   description={'Muestra tus habilidades y trabajos previos para atraer clientes o empleadores.'}
                   icon={<FileCopyIcon color="info" fontSize="large" />} />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <CardSpecialties
+                  title={"E-commerce"}
+                  description={'Ofrece tus productos físicos o digitales y permite transacciónes en linea las 24hs del día.'}
+                  icon={<ShoppingCartIcon color="info" fontSize="large" />} />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <CardSpecialties
+                  title={"Landing page"}
+                  description={'Informa a tus visitantes sobre un producto específico, con el objetivo de motivarlo a tomar una cierta acción.'}
+                  icon={<ContactsIcon color="info" fontSize="large" />} />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <CardSpecialties
+                  title={"Aplicacion web"}
+                  description={'Tu sito web es tu producto y por eso debe contar con la últimas tecnologias web.'}
+                  icon={<ComputerIcon color="info" fontSize="large" />} />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <CardSpecialties
+                  title={"Blog personal"}
+                  description={'Comparte experiencias personales o pasatiempos para comunicar a otros usuarios que estén interesados.'}
+                  icon={<AccountCircleIcon color="info" fontSize="large" />} />
               </Grid>
             </Grid>
           </section>
