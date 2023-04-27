@@ -1,9 +1,7 @@
 import { Layout } from "@/components/layouts"
 import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea } from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-</style>
+
 
 const HomePage = () => {
   return (
