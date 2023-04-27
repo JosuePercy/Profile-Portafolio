@@ -15,8 +15,8 @@
   display: block;
 }
 .logo-header {
-  height: 45px;
-  width: 47px;
+  height: 58px;
+  width: 57px;
 }
 
 .button-container {
@@ -42,7 +42,7 @@
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
-  margin: 0px 10px;
+  margin: 0px 14px;
   border-bottom: 2px solid transparent;
   height: 20px;
   display: inline-block;
@@ -84,7 +84,7 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -3px;
   width: 0;
   height: 3px;
   background-color: #2a7cce;
@@ -445,12 +445,12 @@
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
 }
 .is-sticky a {
-  color: #383838;
+  color: #646464;
 }
 .is-sticky .img-logo-responsive {
   display: block;
-  height: 45px;
-  width: 47px;
+  height: 58px;
+  width: 57px;
 }
 
 .is-sticky .logo-header {

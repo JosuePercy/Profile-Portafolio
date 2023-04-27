@@ -4,7 +4,7 @@ import { CSSProperties, FC } from "react";
 import styles from "./menu.module.css";
 
 const style: CSSProperties = {
-    fontSize: '14px'
+    fontSize: '15px',
 };
 
 interface Props {
