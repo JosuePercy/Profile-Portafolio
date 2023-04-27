@@ -11,7 +11,7 @@ export const CardSpecialties = ({ title, description, icon }: Props) => {
     return (
         <Card
             sx={{ marginBottom: 10 }}
-            style={{ boxShadow: 'inherit', padding: '0px 20px' }}>
+            style={{ boxShadow: 'inherit', padding: '0px 40px' }}>
             <CardHeader
                 avatar={
                     icon
@@ -28,7 +28,9 @@ export const CardSpecialties = ({ title, description, icon }: Props) => {
                     gutterBottom
                     variant="h5"
                     component="div"
-                    style={{ fontWeight: 'bold' }}>{title}</Typography>
+                    style={{ fontWeight: 'bold' }}
+                    sx={{ typography: { sm: 'h5', xs: 'h6', md: 'h5' } }}
+                >{title}</Typography>
                 <Typography
                     variant="body2"
                     color="text.secondary"

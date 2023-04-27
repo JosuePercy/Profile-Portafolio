@@ -15,13 +15,16 @@ const HomePage = () => {
   return (
     <>
       <Layout >
-        <Container>
+        <Container style={{ padding: '0px 12px' }}>
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
+          </style>
           <section className="container-ability">
             <Typography variant="h3" component="h2" style={{
               textAlign: "center",
               marginBottom: 15,
               fontWeight: '700',
-              fontFamily: 'sans-serif'
+              fontFamily: 'Saira,sans-serif'
             }}
               sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
               Lo que puedo hacer
