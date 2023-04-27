@@ -59,9 +59,13 @@ export const NavBar = () => {
                         <div>
                             <IconButton className={`${styles['button-container']}`} onClick={onClickMenu}>
                                 {isOpen ? (
-                                    <CloseIcon color='primary' className={`${styles['btn-menu-header']}`} />
+                                    <CloseIcon color='primary' className={`${styles['btn-menu-header']}`}
+                                        fontSize='large'
+                                    />
                                 ) : (
-                                    <MenuIcon color='primary' className={`${styles['btn-menu-header']}`} />
+                                    <MenuIcon color='primary' className={`${styles['btn-menu-header']}`}
+                                        fontSize='large'
+                                    />
                                 )}
                             </IconButton>
                         </div>

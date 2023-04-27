@@ -117,14 +117,13 @@
     display: none;
   }
   .button-container-close {
-    display: none;
     position: fixed;
   }
   .img-logo-responsive {
     align-self: flex-start;
     display: block;
-    height: 45px;
-    width: 47px;
+    height: 58px;
+    width: 57px;
   }
 
   .flexbox {
