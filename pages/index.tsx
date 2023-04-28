@@ -16,9 +16,6 @@ const HomePage = () => {
     <>
       <Layout >
         <Container style={{ padding: '0px 12px' }}>
-          {/* <style>
-            @import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
-          </style> */}
           <section className="container-ability">
             <Typography variant="h3" component="h2" style={{
               textAlign: "center",
