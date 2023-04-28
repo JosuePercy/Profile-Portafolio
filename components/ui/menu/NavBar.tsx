@@ -15,7 +15,7 @@ const menuItems = [
     { text: 'Inicio', href: '/' },
     { text: 'Proyectos', href: '/proyectos' },
     { text: 'Skills', href: '/skills' },
-    { text: 'About Me', href: '/About' }
+    { text: 'About Me', href: '/About' },
 ]
 
 //Funcion para responsive movil, adaptable a cualquier dispositivo

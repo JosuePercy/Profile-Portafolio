@@ -18,7 +18,7 @@ export const ButtomConfetti = () => {
     //     document.body.appendChild(a); // Agrega el enlace al documento
     //     a.click(); // Inicia la descarga del archivo
     //     document.body.removeChild(a); // Elimina el enlace del documento
-    //   })
+    //   })`
     //   .catch(error => console.error(error));
   };
 
