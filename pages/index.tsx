@@ -11,6 +11,9 @@ import ContactsIcon from '@mui/icons-material/Contacts';
 import ComputerIcon from '@mui/icons-material/Computer';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
+
+
+
 const HomePage = () => {
   return (
     <>
@@ -63,6 +66,30 @@ const HomePage = () => {
                   description={'Comparte experiencias personales o pasatiempos para comunicar a otros usuarios que estén interesados.'}
                   icon={<AccountCircleIcon color="info" fontSize="large" />} />
               </Grid>
+            </Grid>
+          </section>
+          <section>
+            <Typography variant="h3" component="h2" style={{
+              textAlign: "center",
+              marginBottom: 15,
+              fontWeight: '700',
+              fontFamily: 'Saira,sans-serif'
+            }}
+              sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
+              Proyectos realizados
+            </Typography>
+            <Grid>
+              <Card>
+                <CardActionArea href="/proyectos/nombre-del-proyecto.html">
+                  <CardHeader title="Nombre del proyecto" />
+                  <CardMedia component="img" image="/proyectos/nombre-del-proyecto.jpg" alt="Imagen del proyecto" />
+                  <CardContent>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      Descripción del proyecto
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
             </Grid>
           </section>
           <h1>Hola mundo</h1>
