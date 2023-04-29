@@ -10,6 +10,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import ComputerIcon from '@mui/icons-material/Computer';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { ProjectsPortfolio } from "@/components/ui/case-studies-area";
 
 
 
@@ -78,30 +79,17 @@ const HomePage = () => {
               sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
               Proyectos realizados
             </Typography>
-            <Card sx={{ maxWidth: 345 }}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  height="140"
-                  image="https://elcomercio.pe/resizer/xtGFNYbLWyUvXjVnLBki7wLBAms=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/X2FZ7DJOIZBQVHZ6Y3GRVBQ3VM.jpg"
-                  alt="green iguana"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    Lizard
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
-                  Share
-                </Button>
-              </CardActions>
-            </Card>
+            <Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <ProjectsPortfolio />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <ProjectsPortfolio />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <ProjectsPortfolio />
+              </Grid>
+            </Grid>
           </section>
         </Container>
       </Layout >
