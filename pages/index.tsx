@@ -4,7 +4,7 @@ import Inventory2Icon from '@mui/icons-material/Inventory2';
 
 import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
 
-import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea } from "@mui/material";
+import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea, CardActions, Button } from "@mui/material";
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ContactsIcon from '@mui/icons-material/Contacts';
@@ -78,19 +78,30 @@ const HomePage = () => {
               sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
               Proyectos realizados
             </Typography>
-            <Grid>
-              <Card>
-                <CardActionArea href="/proyectos/nombre-del-proyecto.html">
-                  <CardHeader title="Nombre del proyecto" />
-                  <CardMedia component="img" image="/proyectos/nombre-del-proyecto.jpg" alt="Imagen del proyecto" />
-                  <CardContent>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                      Descripción del proyecto
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            </Grid>
+            <Card sx={{ maxWidth: 345 }}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image="https://elcomercio.pe/resizer/xtGFNYbLWyUvXjVnLBki7wLBAms=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/X2FZ7DJOIZBQVHZ6Y3GRVBQ3VM.jpg"
+                  alt="green iguana"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    Lizard
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Lizards are a widespread group of squamate reptiles, with over 6,000
+                    species, ranging across all continents except Antarctica
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Share
+                </Button>
+              </CardActions>
+            </Card>
           </section>
         </Container>
       </Layout >
