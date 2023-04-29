@@ -92,12 +92,6 @@ const HomePage = () => {
               </Card>
             </Grid>
           </section>
-          <h1>Hola mundo</h1>
-          <h1>Hola mundo</h1>
-          <h1>Hola mundo</h1>
-          <h1>Hola mundo</h1>
-          <h1>Hola mundo</h1>
-          <h1>Hola mundo</h1>
         </Container>
       </Layout >
     </>
