@@ -63,7 +63,7 @@
 /* Contenedor del menú */
 .flexbox {
   display: flex;
-  /* background-color: rgb(255, 0, 0); */
+  /* background-color: rgb(255, 0, 0); 1 */
   height: 70px;
   justify-content: space-between;
   padding: 12px 30px;
@@ -71,13 +71,28 @@
   max-width: 1920px;
   align-items: center;
   position: absolute;
-  /* position: fixed; */
+  /* position: fixed 1; */
   width: 100%;
   width: calc(100% - 60px);
-  /* transform: translate(-50%, -0%); */
+  /* transform: translate(-50%, -0%);1 */
   top: 0;
-  /* left: 50%; */
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* left: 50%;1 */
 }
+
+/* Posible solucion */
+
+/* .flexbox {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 12px 30px;
+  max-width: 1920px;
+  align-items: center;
+  margin: 0 auto;
+} */
 
 /* Efecto before de los elementos del menú */
 .menu-sterilized::before {

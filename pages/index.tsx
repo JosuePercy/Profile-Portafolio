@@ -12,9 +12,6 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { ProjectsPortfolio } from "@/components/ui/case-studies-area";
 
-
-
-
 const HomePage = () => {
   return (
     <>
