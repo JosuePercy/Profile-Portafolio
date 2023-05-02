@@ -21,7 +21,7 @@ export const CardSpecialties = ({ title, description, icon }: Props) => {
                     // </div>
                 }
                 className="card-icon"
-                style={{ padding: '16px 16px 16px 0px', flexDirection: 'column' }}
+                style={{ flexDirection: 'column' }}
             />
             <CardContent style={{ padding: 0 }}>
                 <Typography

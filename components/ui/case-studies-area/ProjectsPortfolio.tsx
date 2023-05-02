@@ -1,31 +1,37 @@
-import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
+
+import styles from './portafolio.module.css'
+
+// type Props = {
+//   tittle
+// }
 
 export const ProjectsPortfolio = () => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image="https://elcomercio.pe/resizer/xtGFNYbLWyUvXjVnLBki7wLBAms=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/X2FZ7DJOIZBQVHZ6Y3GRVBQ3VM.jpg"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Lizard
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
-    </Card>
+    <section>
+      <div className={styles['card']}>
+        <div className={styles['area-description']}>
+          <div className={styles['sterilized-area-description']}>
+            <h3>
+              Featured Project
+            </h3>
+            <h2>
+              Crypto App Flutter Wallet
+            </h2>
+            <div className={styles['sterilized-dynamic']}>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae ullam sunt deleniti recusandae id aspernatur omnis dolorum aliquam rerum, repellat odit cumque ipsum, commodi impedit, hic expedita magni delectus.
+              </p>
+            </div>
+          </div>
+          <div className={styles['icons-languages']}>
+            <img alt='html' width={50} height={50} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg' />
+          </div>
+        </div>
+        <div className={styles['area-briefcase']}>
+
+        </div>
+      </div>
+    </section >
   )
 }

@@ -1,0 +1,36 @@
+.card {
+  background-color: #0d192c;
+  display: flex;
+  padding: 0px 20px;
+}
+
+.sterilized-area-description {
+  padding: 20px 20px;
+}
+
+.sterilized-area-description h3 {
+  color: #5de5c8;
+}
+.sterilized-area-description h2 {
+  color: #c6d1f0;
+}
+.sterilized-area-description p {
+  color: #97a3c2;
+  margin: 0;
+}
+.sterilized-dynamic {
+  background-color: #112240;
+  padding: 20px 10px;
+  border-radius: 15px;
+  line-height: 1.6;
+}
+
+.area-description {
+  /* background-color: green; */
+  flex-basis: 50%;
+}
+
+.area-briefcase {
+  background-color: yellow;
+  flex-basis: 50%;
+}

@@ -76,17 +76,11 @@ const HomePage = () => {
               sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
               Proyectos realizados
             </Typography>
-            <Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <ProjectsPortfolio />
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <ProjectsPortfolio />
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <ProjectsPortfolio />
-              </Grid>
-            </Grid>
+            <ProjectsPortfolio />
+            <h1>fsafas</h1>
+            <h1>fsafas</h1>
+            <h1>fsafas</h1>
+            <h1>fsafas</h1>
           </section>
         </Container>
       </Layout >
