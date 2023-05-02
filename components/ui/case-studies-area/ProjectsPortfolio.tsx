@@ -21,15 +21,17 @@ export const ProjectsPortfolio = () => {
             <div className={styles['sterilized-dynamic']}>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae ullam sunt deleniti recusandae id aspernatur omnis dolorum aliquam rerum, repellat odit cumque ipsum, commodi impedit, hic expedita magni delectus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae ullam sunt deleniti recusandae id aspernatur omnis dolorum aliquam rerum, repellat odit cumque ipsum, commodi impedit, hic expedita magni delectus.
               </p>
             </div>
           </div>
-          <div className={styles['icons-languages']}>
+          <div className={styles['container-icons-languages']}>
             <img alt='html' width={50} height={50} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg' />
+            <img alt='html' width={50} height={50} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg' />
           </div>
         </div>
         <div className={styles['area-briefcase']}>
-
+          <img src='../../../image/portada.jpg' />
         </div>
       </div>
     </section >

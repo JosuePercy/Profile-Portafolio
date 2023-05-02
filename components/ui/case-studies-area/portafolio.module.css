@@ -5,7 +5,6 @@
 }
 
 .sterilized-area-description {
-  padding: 20px 20px;
 }
 
 .sterilized-area-description h3 {
@@ -28,9 +27,20 @@
 .area-description {
   /* background-color: green; */
   flex-basis: 50%;
+  padding: 20px 20px;
 }
 
 .area-briefcase {
   background-color: yellow;
   flex-basis: 50%;
+}
+
+.container-icons-languages {
+  padding-top: 20px;
+}
+
+.area-briefcase img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
