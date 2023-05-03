@@ -18,25 +18,25 @@
 }
 
 .conteiner-area-description h3 {
-  color: #999999;
+  color: #19a7ce;
   font-size: 1.5rem;
   margin: 0;
   margin-bottom: 1rem;
 }
 .conteiner-area-description h2 {
-  color: #675d50;
+  color: #19a7ce;
   font-size: 2rem;
   margin: 0;
   font-family: sans-serif;
   margin-bottom: 2rem;
 }
 .conteiner-area-description p {
-  color: #fff;
+  color: #b0daff;
   margin: 0;
   font-size: 1.3rem;
 }
 .sterilized-dynamic {
-  background-color: #a9907e;
+  background-color: #146c94;
   padding: 1.7rem 1.1rem;
   border-radius: 15px;
   line-height: 1.6;

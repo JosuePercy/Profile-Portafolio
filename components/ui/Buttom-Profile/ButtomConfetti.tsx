@@ -38,14 +38,15 @@ export const ButtomConfetti = () => {
 
   return (
     <div className={`${styles['container-buttom']}`}>
-      <Button color={'gradient'}
+      <Button color={'primary'}
         onClick={() => {
           handleConfetti();
           handleDownloadCV();
         }}
         style={{ display: 'inline-block' }}
-        icon={<DownloadIcon />}
+
       >
+        {<DownloadIcon />}
         Descargar CV
       </Button>
     </div>

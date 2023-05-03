@@ -69,7 +69,7 @@ const HomePage = () => {
           <section>
             <Typography variant="h3" component="h2" style={{
               textAlign: "center",
-              marginBottom: 15,
+              marginBottom: 75,
               fontWeight: '700',
               fontFamily: 'Saira,sans-serif'
             }}
