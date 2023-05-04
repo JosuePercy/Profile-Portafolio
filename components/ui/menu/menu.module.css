@@ -61,6 +61,10 @@
 }
 
 /* Contenedor del menú */
+
+.flexbox-center {
+  background-color: #fff;
+}
 .flexbox {
   display: flex;
   /* background-color: rgb(255, 0, 0); 1 */
