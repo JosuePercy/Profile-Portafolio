@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
+import img from '../public/image/portada-header.png';
 class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -14,6 +14,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap"
             rel="stylesheet"
           />
+          <meta property="og:image" content='../public/image/portada-header.png' />
         </Head>
         <body>
           <Main />

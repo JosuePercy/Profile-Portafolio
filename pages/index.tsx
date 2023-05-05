@@ -77,6 +77,7 @@ const HomePage = () => {
               Proyectos realizados
             </Typography>
             <ProjectsPortfolio
+
               outstanding={'Featured Project'}
               title={'Crypto App Flutter Wallet'}
               description={"Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout."}

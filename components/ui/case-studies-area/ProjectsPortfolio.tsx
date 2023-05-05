@@ -11,7 +11,7 @@ type Props = {
   title: string;
   description: string;
   technologies: string[];
-
+  //  agregar propierda reverse
 }
 
 export const ProjectsPortfolio = ({ outstanding, title, description, technologies }: Props) => {
