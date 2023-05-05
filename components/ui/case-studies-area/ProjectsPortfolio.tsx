@@ -37,7 +37,7 @@ export const ProjectsPortfolio = ({ outstanding, title, description, technologie
             <div className={styles['container-icons-languages']}>
               {
                 technologies.map(e => {
-                  return <img alt='html' width={50} height={50} src={e} />
+                  return <img alt='html' width={50} height={50} src={e} key={e} />
                 })
               }
             </div>
