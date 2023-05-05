@@ -43,7 +43,7 @@
 }
 
 .area-briefcase {
-  background-color: yellow;
+  /* background-color: yellow; */
   position: relative;
   z-index: 1;
   max-width: 735px;
@@ -62,4 +62,51 @@
   position: relative;
   /* background-color: red; */
   margin-right: -100px;
+}
+
+.area-briefcase {
+  position: relative;
+  z-index: 1;
+  max-width: 735px;
+  max-height: 437px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: aliceblue;
+  box-shadow: 1px red;
+  border: 2px solid #a7a7a769;
+  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 29%);
+  box-shadow: 1px solid;
+}
+
+.area-briefcase img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 1s;
+}
+.area-briefcase a::after {
+  position: absolute;
+  content: "";
+  /* width: 100px; */
+  /* height: 100px; */
+  background: #00000066;
+  background-image: url(https://cdn.iconscout.com/icon/free/png-256/free-chat-1438147-1213937.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 50%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 12;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.area-briefcase a:hover::after {
+  opacity: 1;
+}
+
+.area-briefcase a {
+  transition: opacity 3s;
 }

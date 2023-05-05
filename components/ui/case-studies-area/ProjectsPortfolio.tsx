@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styles from './portafolio.module.css'
+import Link from 'next/link'
 
 // type Props = {
 //   tittle
@@ -36,7 +37,9 @@ export const ProjectsPortfolio = () => {
           </div>
         </div>
         <div className={styles['area-briefcase']}>
-          <img src='../../../image/portada.jpg' />
+          <Link href={'https://page-layout-green.vercel.app/'} target="_blank">
+            <img src='../../../image/portfolio3.png' />
+          </Link>
         </div>
       </div>
     </section >
