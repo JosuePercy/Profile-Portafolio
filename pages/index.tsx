@@ -76,7 +76,28 @@ const HomePage = () => {
               sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
               Proyectos realizados
             </Typography>
-            <ProjectsPortfolio />
+            <ProjectsPortfolio
+              outstanding={'Featured Project'}
+              title={'Crypto App Flutter Wallet'}
+              description={"Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout."}
+              technologies={
+                [
+                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg',
+                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg'
+                ]
+              }
+            />
+            <ProjectsPortfolio
+              outstanding={'Featured Project'}
+              title={'Crypto App Flutter Wallet'}
+              description={"Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout."}
+              technologies={
+                [
+                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg',
+                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg'
+                ]
+              }
+            />
             <h1>fsafas</h1>
             <h1>fsafas</h1>
             <h1>fsafas</h1>

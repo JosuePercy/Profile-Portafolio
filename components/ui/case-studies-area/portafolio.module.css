@@ -2,6 +2,7 @@
   display: flex;
   padding: 0px 20px;
   position: relative;
+  margin-bottom: 156px;
 }
 
 .conteiner-text {
@@ -76,6 +77,7 @@
   border: 2px solid #a7a7a769;
   box-shadow: 0 2px 18px 0 rgb(0 0 0 / 29%);
   box-shadow: 1px solid;
+  transition: 1s;
 }
 
 .area-briefcase img {
@@ -87,7 +89,6 @@
 
 .area-briefcase:hover {
   -webkit-transform: scale(1.02);
-  transition: 1s;
 }
 .area-briefcase a::after {
   position: absolute;
@@ -117,14 +118,16 @@
 
 .icon-link {
   position: absolute;
-  z-index: 6;
+  z-index: 13;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  color: white;
 }
 
-.area-briefcase:hover .icon-link {
+.area-briefcase a:hover .icon-link {
   opacity: 1;
 }
