@@ -432,8 +432,7 @@
 .profile-photo {
   border-radius: 150px;
   animation: border-transform 10s linear infinite alternate forwards;
-  width: 70%;
-  padding-left: 50px;
+  width: 92% !important;
 }
 /* .aling-center-flexbox {
   width: 100%;
