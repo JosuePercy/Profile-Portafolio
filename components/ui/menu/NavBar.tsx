@@ -85,7 +85,7 @@ export const NavBar = () => {
                         <ButtomConfetti />
                     </div>
                     <div className={styles['introduction-profile']}>
-                        <img src='../../../image/perfil23.jpg' className={styles['profile-photo']} />
+                        <img src='../../../image/portada-header.png' className={styles['profile-photo']} />
                     </div>
                 </div>
             </div>

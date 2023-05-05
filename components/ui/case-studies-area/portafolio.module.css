@@ -84,13 +84,17 @@
   object-fit: cover;
   transition: 1s;
 }
+
+.area-briefcase:hover {
+  -webkit-transform: scale(1.02);
+  transition: 1s;
+}
 .area-briefcase a::after {
   position: absolute;
   content: "";
   /* width: 100px; */
   /* height: 100px; */
   background: #00000066;
-  background-image: url(https://cdn.iconscout.com/icon/free/png-256/free-chat-1438147-1213937.png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 50%;
@@ -109,4 +113,18 @@
 
 .area-briefcase a {
   transition: opacity 3s;
+}
+
+.icon-link {
+  position: absolute;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.area-briefcase:hover .icon-link {
+  opacity: 1;
 }

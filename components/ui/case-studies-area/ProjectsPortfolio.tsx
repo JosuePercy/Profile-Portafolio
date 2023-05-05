@@ -1,7 +1,10 @@
 import React from 'react'
 
-import styles from './portafolio.module.css'
 import Link from 'next/link'
+
+import styles from './portafolio.module.css'
+
+import AddLinkIcon from '@mui/icons-material/AddLink';
 
 // type Props = {
 //   tittle
@@ -39,6 +42,7 @@ export const ProjectsPortfolio = () => {
         <div className={styles['area-briefcase']}>
           <Link href={'https://page-layout-green.vercel.app/'} target="_blank">
             <img src='../../../image/portfolio3.png' />
+            <AddLinkIcon color='disabled' className={styles['icon-link']} />
           </Link>
         </div>
       </div>

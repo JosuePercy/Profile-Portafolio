@@ -1,7 +1,7 @@
 /* Encabezado del menú */
 .main-header {
   height: 100vh;
-  background: -webkit-linear-gradient(#18181bc5, #18181bb6, #18181bb4),
+  background: -webkit-linear-gradient(#18181b3b, #18181b36, #18181b6d),
     url(../../../public/image/porfoliopreview.jpg);
   /* background-color: green; */
   background-repeat: no-repeat;
