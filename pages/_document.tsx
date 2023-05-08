@@ -14,7 +14,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap"
             rel="stylesheet"
           />
-          <meta property="og:image" content='../public/image/portada-header.png' />
+          <meta property="og:image" content='../image/portada-header.png' />
         </Head>
         <body>
           <Main />
