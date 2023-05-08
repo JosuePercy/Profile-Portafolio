@@ -30,7 +30,7 @@ export const ButtomConfetti = () => {
       spread: 360,
       origin: {
         x: 0.5,
-        // since they fall down, start a bit higher than randomm
+        // since they fall down, start a bit higher than randommn
         y: 0.4
       }
     });
