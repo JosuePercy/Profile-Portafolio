@@ -1,6 +1,6 @@
 import { Button } from '@nextui-org/react';
 import confetti from 'canvas-confetti';
-import styles from "./../menu/menu.module.css";
+import styles from "./buttonConfetti.module.css";
 import DownloadIcon from '@mui/icons-material/Download';
 export const ButtomConfetti = () => {
 
@@ -37,18 +37,15 @@ export const ButtomConfetti = () => {
   }
 
   return (
-    <div className={`${styles['container-buttom']}`}>
-      <Button color={'primary'}
-        onClick={() => {
-          handleConfetti();
-          handleDownloadCV();
-        }}
-        style={{ display: 'inline-block' }}
-
-      >
-        {<DownloadIcon />}
-        Descargar CV
-      </Button>
-    </div>
+    <Button
+      color={'primary'}
+      onClick={() => {
+        handleConfetti();
+        handleDownloadCV();
+      }}
+      style={{ display: 'inline-block' }}>
+      {<DownloadIcon />}
+      Descargar CV
+    </Button>
   )
 }

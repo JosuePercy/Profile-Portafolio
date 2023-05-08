@@ -1,21 +1,25 @@
 import { Layout } from "@/components/layouts"
 
 import Inventory2Icon from '@mui/icons-material/Inventory2';
-
-import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
+import FileCopyIcon from '@mui/icons-material/FileCopy';
 
 import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea, CardActions, Button } from "@mui/material";
-import FileCopyIcon from '@mui/icons-material/FileCopy';
+
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import ComputerIcon from '@mui/icons-material/Computer';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { ProjectsPortfolio } from "@/components/ui/case-studies-area";
+
+import { CaseAreaReverse, ProjectsPortfolio } from "@/components/ui/case-studies-area";
+import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
+import { BannerProfile } from "@/components/shared/Banner/BannerProfile";
 
 const HomePage = () => {
   return (
     <>
       <Layout >
+        <BannerProfile />
+
         <Container style={{ padding: '0px 12px' }}>
           <section className="container-ability">
             <Typography variant="h3" component="h2" style={{
@@ -88,7 +92,8 @@ const HomePage = () => {
                 ]
               }
             />
-            <ProjectsPortfolio
+
+            <CaseAreaReverse
               outstanding={'Featured Project'}
               title={'Crypto App Flutter Wallet'}
               description={"Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout."}
@@ -97,12 +102,8 @@ const HomePage = () => {
                   'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg',
                   'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg'
                 ]
-              }
-            />
-            <h1>fsafas</h1>
-            <h1>fsafas</h1>
-            <h1>fsafas</h1>
-            <h1>fsafas</h1>
+              } />
+
           </section>
         </Container>
       </Layout >

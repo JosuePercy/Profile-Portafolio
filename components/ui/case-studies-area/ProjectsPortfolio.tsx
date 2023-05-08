@@ -32,7 +32,6 @@ export const ProjectsPortfolio = ({ outstanding, title, description, technologie
               <div className={styles['sterilized-dynamic']}>
                 <p>{description}</p>
               </div>
-
             </div>
             <div className={styles['container-icons-languages']}>
               {
