@@ -7,6 +7,8 @@ export const ButtomConfetti = () => {
   const handleDownloadCV = () => {
     // TODO: Agregar la lógica para descargar el archivo PDF
     console.log('Descargando CV...');
+
+
     fetch(`/download/CV/cv-Josue-Huallullo.pdf`)
       .then(response => response.blob())
       .then(blob => {
@@ -14,7 +16,7 @@ export const ButtomConfetti = () => {
         const a = document.createElement('a');
         a.href = url;
         a.download = 'cv-Josue-Huallullo.pdf';
-        a.style.display = 'none'; // Oculta el enlace del usuario
+        a.style.display = 'none'; // Oculta el enlace del usuarios
         document.body.appendChild(a); // Agrega el enlace al documento
         a.click(); // Inicia la descarga del archivo
         document.body.removeChild(a); // Elimina el enlace del documento
