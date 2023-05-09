@@ -44,7 +44,7 @@ export const ProjectsPortfolio = ({ outstanding, title, description, technologie
         </div>
         <div className={styles['area-briefcase']}>
           <Link href={'https://page-layout-green.vercel.app/'} target="_blank">
-            <img src='../../../image/portfolio3.png' />
+            <img src='../../../image/card-project/portfolio3.png' />
             <AddLinkIcon className={styles['icon-link']
             } fontSize='large' />
           </Link>

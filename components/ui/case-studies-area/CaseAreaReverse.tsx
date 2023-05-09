@@ -16,8 +16,8 @@ export const CaseAreaReverse = ({ outstanding, title, description, technologies 
         <section>
             <div className={styles['card-reverse']}>
                 <div className={styles['area-briefcase-reverse']}>
-                    <Link href={'https://page-layout-green.vercel.app/'} target="_blank">
-                        <img src='../../../image/portfolio3.png' />
+                    <Link href={'https://proyect-list.vercel.app/'} target="_blank">
+                        <img src='../../../image/card-project/project-list.png' />
                         <AddLinkIcon className={styles['icon-link-reverse']
                         } fontSize='large' />
                     </Link>
