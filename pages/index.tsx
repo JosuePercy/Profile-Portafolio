@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Layout } from "@/components/layouts"
 
 import Inventory2Icon from '@mui/icons-material/Inventory2';
@@ -13,8 +14,21 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { CaseAreaReverse, ProjectsPortfolio } from "@/components/ui/case-studies-area";
 import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
 import { BannerProfile } from "@/components/shared/Banner/BannerProfile";
+//import technologies from "@/components/ui/case-studies-area/technologies";
+import listPorject from "@/data/projects/projects.json"
+
 
 const HomePage = () => {
+
+
+  useEffect(() => {
+    console.log("project", listPorject)
+    return () => {
+
+    }
+  }, [])
+
+
   return (
     <>
       <Layout >
@@ -80,35 +94,28 @@ const HomePage = () => {
               sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
               Proyectos realizados
             </Typography>
-            <ProjectsPortfolio
 
-              outstanding={'Featured Project'}
-              title={'Crypto App Flutter Wallet'}
-              description={"Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout."}
-              technologies={
-                [
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg',
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg'
-                ]
-              }
-            />
-
-            <CaseAreaReverse
-              outstanding={'Featured Project'}
-              title={'Crypto App Flutter Wallet'}
-              description={"Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout."}
-              technologies={
-                [
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg',
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg',
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg',
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg',
-                  'https://images.opencollective.com/nextui/93858ec/logo/256.png',
-                  'https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg'
-
-                ]
-              } />
-
+            {
+              listPorject.map((project, index) => {
+                if (index % 2 === 0) {
+                  return <ProjectsPortfolio
+                    outstanding={project.outstanding}
+                    title={project.title}
+                    description={project.description}
+                    technologies={project.technologies}
+                    key={index}
+                  />
+                } else {
+                  return <CaseAreaReverse
+                    outstanding={project.outstanding}
+                    title={project.title}
+                    description={project.description}
+                    technologies={project.technologies}
+                    key={index}
+                  />
+                }
+              })
+            }
           </section>
         </Container>
       </Layout >

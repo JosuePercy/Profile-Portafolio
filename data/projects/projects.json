@@ -1,0 +1,48 @@
+[
+  {
+    "outstanding": "Featured Project",
+    "title": "Maquetacion project",
+    "description": "Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout.",
+    "technologies": [
+      {
+        "name": "HTML5",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg"
+      },
+      {
+        "name": "CSS3",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg"
+      }
+    ]
+  },
+  {
+    "outstanding": "Featured Project",
+    "title": "Proyect List Pokemon",
+    "description": "Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout.",
+    "technologies": [
+      {
+        "name": "HTML5",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg"
+      },
+      {
+        "name": "Material UI",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg"
+      },
+      {
+        "name": "Next.js",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "NextUI",
+        "url": "https://images.opencollective.com/nextui/93858ec/logo/256.png"
+      },
+      {
+        "name": "CSS3",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg"
+      }
+    ]
+  }
+]

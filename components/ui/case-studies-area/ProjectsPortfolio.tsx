@@ -5,12 +5,13 @@ import Link from 'next/link'
 import styles from './portafolio.module.css'
 
 import AddLinkIcon from '@mui/icons-material/AddLink';
+import { technology } from "@/interfaces/technology";
 
 type Props = {
   outstanding: string;
   title: string;
   description: string;
-  technologies: string[];
+  technologies: technology[];
   //  agregar propierda reverse
 }
 
@@ -35,8 +36,18 @@ export const ProjectsPortfolio = ({ outstanding, title, description, technologie
             </div>
             <div className={styles['container-icons-languages']}>
               {
-                technologies.map(e => {
-                  return <img alt='html' width={50} height={50} src={e} key={e} />
+                technologies.map(technology => {
+                  return (
+                    <div className={styles['technologies-icon']}>
+                      <span className={styles['event-icon']}>{technology.name}</span>
+                      <img
+                        width={50}
+                        height={50}
+                        src={technology.url}
+                        key={technology.url}
+                      />
+                    </div>
+                  )
                 })
               }
             </div>

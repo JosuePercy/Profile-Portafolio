@@ -3,13 +3,16 @@ import Link from "next/link"
 import styles from './portafolio.module.css'
 
 import AddLinkIcon from '@mui/icons-material/AddLink';
+import { technology } from "@/interfaces/technology";
+
 
 type Props = {
     outstanding: string;
     title: string;
     description: string;
-    technologies: string[];
+    technologies: technology[];
 }
+
 
 export const CaseAreaReverse = ({ outstanding, title, description, technologies }: Props) => {
     return (
@@ -40,8 +43,13 @@ export const CaseAreaReverse = ({ outstanding, title, description, technologies 
                         </div>
                         <div className={styles['container-icons-languages-reverse']}>
                             {
-                                technologies.map(e => {
-                                    return <img alt='html' width={50} height={50} src={e} key={e} />
+                                technologies.map(technology => {
+                                    return <img
+                                        alt={technology.name}
+                                        width={50}
+                                        height={50}
+                                        src={technology.url}
+                                        key={technology.url} />
                                 })
                             }
                         </div>
