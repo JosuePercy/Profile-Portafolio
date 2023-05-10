@@ -20,24 +20,25 @@
 }
 
 .conteiner-area-description h3 {
-  color: #19a7ce;
+  color: var(--main-bg-color-primay);
   font-size: 1.5rem;
   margin: 0;
   margin-bottom: 1rem;
 }
 .conteiner-area-description h2 {
-  color: #19a7ce;
+  color: var(--main-bg-color-primay);
   font-size: 2rem;
   margin: 0;
   font-family: sans-serif;
 }
 .conteiner-area-description p {
-  color: #b0daff;
+  color: #fff;
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-family: saira;
 }
 .sterilized-dynamic {
-  background-color: #146c94;
+  background-color: var(--main-bg-color-primay);
   padding: 1.7rem 1.1rem;
   border-radius: 15px;
   line-height: 1.6;
@@ -51,7 +52,7 @@
 .container-icons-languages {
   margin-top: 20px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .display-conteiner-description {
@@ -69,8 +70,8 @@
   border-radius: 15px;
   box-shadow: aliceblue;
   box-shadow: 1px red;
-  border: 2px solid #a7a7a769;
-  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 29%);
+  border: 3px solid #a7a7a7;
+  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 35%);
   box-shadow: 1px solid;
   transition: 1s;
 }
@@ -144,8 +145,8 @@
   border-radius: 15px;
   box-shadow: aliceblue;
   box-shadow: 1px red;
-  border: 2px solid #a7a7a769;
-  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 29%);
+  border: 3px solid #a7a7a7;
+  box-shadow: 0 2px 18px 0 rgb(0 0 0 / 35%);
   box-shadow: 1px solid;
   transition: 1s;
 }
@@ -221,7 +222,7 @@
 }
 
 .conteiner-area-description-reverse h2 {
-  color: #19a7ce;
+  color: var(--main-bg-color-primay);
   font-size: 2rem;
   margin: 0;
   font-family: sans-serif;
@@ -230,7 +231,7 @@
 }
 
 .conteiner-area-description-reverse h3 {
-  color: #19a7ce;
+  color: var(--main-bg-color-primay);
   font-size: 1.5rem;
   margin: 0;
   margin-bottom: 1rem;
@@ -240,14 +241,15 @@
 }
 
 .conteiner-area-description-reverse p {
-  color: #b0daff;
+  color: #fff;
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: left;
+  font-family: saira;
 }
 
 .sterilized-dynamic-reverse {
-  background-color: #146c94;
+  background-color: var(--main-bg-color-primay);
   padding: 1.7rem 1.1rem;
   border-radius: 15px;
   line-height: 1.6;
@@ -261,6 +263,15 @@
   gap: 10px;
 }
 
+/* Styles icons tecgnologyas */
+.technologies-icon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .event-icon {
   position: absolute;
   z-index: 1;
@@ -271,9 +282,24 @@
   padding: 0.5rem 1rem;
   font-size: 0.8rem;
   border-radius: 8px;
-  top: 100%;
+  top: calc(100% + 0.5rem);
   opacity: 0;
   transition: opacity 0.3s ease;
+  transition: transform 1s ease;
+
+  background: var(--main-bg-color-primay);
+
+  color: #fff;
+  font-family: saira;
+}
+
+.technologies-icon:hover .event-icon {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.technologies-icon:hover .event-icon {
+  opacity: 1;
 }
 
 :has(> .event-icon) {
@@ -284,7 +310,6 @@
   opacity: 1;
 }
 
-/* Styles icons tecgnologyas */
 .container-icons-languages img:hover {
   -webkit-transform: scale(0.7);
   transition: 1s;
@@ -293,7 +318,53 @@
   transition: 1s;
 }
 
-/* Styles icons tecgnologyas reserve */
+/* Styles icons tecgnologyas reverse */
+.technologies-icon-reverse {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-icon-reverse {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+
+  box-shadow: 0 0 10px #0000005d;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  top: calc(100% + 0.5rem);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  transition: transform 1s ease;
+
+  background: var(--main-bg-color-primay);
+
+  color: #fff;
+  font-family: saira;
+}
+
+.technologies-icon-reverse:hover .event-icon-reverse {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.technologies-icon-reverse:hover .event-icon-reverse {
+  opacity: 1;
+}
+
+:has(> .event-icon-reverse) {
+  position: relative;
+}
+
+:has(> .event-icon-reverse):hover .event-icon-reverse {
+  opacity: 1;
+}
+
 .container-icons-languages-reverse img:hover {
   -webkit-transform: scale(0.7);
   transition: 1s;
@@ -307,3 +378,5 @@
   position: absolute;
   content: "";
 }
+
+/* styles incons tecgnologyas inverse */

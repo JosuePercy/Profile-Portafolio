@@ -43,13 +43,17 @@ export const CaseAreaReverse = ({ outstanding, title, description, technologies 
                         </div>
                         <div className={styles['container-icons-languages-reverse']}>
                             {
-                                technologies.map(technology => {
-                                    return <img
-                                        alt={technology.name}
-                                        width={50}
-                                        height={50}
-                                        src={technology.url}
-                                        key={technology.url} />
+                                technologies.map((technology, index) => {
+                                    return (
+                                        <div className={styles['technologies-icon-reverse']} key={index}>
+                                            <span className={styles['event-icon-reverse']}>{technology.name}</span>
+                                            <img
+                                                width={50}
+                                                height={50}
+                                                src={technology.url}
+                                                key={technology.url} />
+                                        </div>
+                                    )
                                 })
                             }
                         </div>
