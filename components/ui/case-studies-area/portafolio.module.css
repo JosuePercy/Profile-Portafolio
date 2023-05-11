@@ -2,7 +2,7 @@
   display: flex;
   padding: 0px 20px;
   position: relative;
-  margin-bottom: 156px;
+  margin-bottom: 98px;
 }
 
 .conteiner-text {
@@ -552,12 +552,30 @@
     font-size: 0.6rem;
   }
 }
-@media screen and (max-width: 418px) {
+
+@media screen and (max-width: 474px) {
   .conteiner-area-description p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 }
 
+@media screen and (max-width: 425px) {
+  .container-icons-languages img {
+    width: 40px;
+    height: 40px;
+  }
+  .conteiner-area-description p {
+    font-size: 0.6rem;
+  }
+  .sterilized-dynamic {
+    margin: 0px 1rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .container-icons-languages {
+    margin-top: 11px;
+  }
+}
 /* reponsive Projects reverse */
 
 @media screen and (max-width: 1135px) {
@@ -726,8 +744,20 @@
     font-size: 0.6rem;
   }
 }
-@media screen and (max-width: 418px) {
+@media screen and (max-width: 425px) {
+  .container-icons-languages-reverse img {
+    width: 40px;
+    height: 40px;
+  }
   .conteiner-area-description-reverse p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+  }
+  .sterilized-dynamic-reverse {
+    margin: 0px 1rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .container-icons-languages-reverse {
+    margin-top: 11px;
   }
 }
