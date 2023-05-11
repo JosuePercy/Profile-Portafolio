@@ -1,2 +1,2 @@
 export * from "./ProjectsPortfolio";
-export * from "./CaseAreaReverse";
+export * from "./ProjectsPortfolioReverse";

@@ -14,7 +14,7 @@ type Props = {
 }
 
 
-export const CaseAreaReverse = ({ outstanding, title, description, technologies }: Props) => {
+export const ProjectsPortfolioReverse = ({ outstanding, title, description, technologies }: Props) => {
     return (
         <section>
             <div className={styles['card-reverse']}>

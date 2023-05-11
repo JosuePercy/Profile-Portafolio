@@ -11,7 +11,7 @@ import ContactsIcon from '@mui/icons-material/Contacts';
 import ComputerIcon from '@mui/icons-material/Computer';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
-import { CaseAreaReverse, ProjectsPortfolio } from "@/components/ui/case-studies-area";
+import { ProjectsPortfolioReverse, ProjectsPortfolio } from "@/components/ui/case-studies-area";
 import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
 import { BannerProfile } from "@/components/shared/Banner/BannerProfile";
 //import technologies from "@/components/ui/case-studies-area/technologies";
@@ -106,7 +106,7 @@ const HomePage = () => {
                     key={index}
                   />
                 } else {
-                  return <CaseAreaReverse
+                  return <ProjectsPortfolioReverse
                     outstanding={project.outstanding}
                     title={project.title}
                     description={project.description}
