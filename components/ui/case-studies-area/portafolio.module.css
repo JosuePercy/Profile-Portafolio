@@ -538,7 +538,7 @@
     padding: 1rem 1.1rem;
   }
   .card {
-    margin-bottom: 50px;
+    margin-bottom: 58px;
   }
 }
 
@@ -564,7 +564,7 @@
     font-size: 0.6rem;
   }
   .card {
-    margin-bottom: 34px;
+    margin-bottom: 63px;
   }
 }
 @media screen and (max-width: 441px) {
@@ -744,8 +744,8 @@
   .sterilized-dynamic-reverse {
     padding: 1rem 1.1rem;
   }
-  .card-reverse {
-    margin-bottom: 50px;
+  .card {
+    margin-bottom: 58px;
   }
 }
 
@@ -771,7 +771,7 @@
     font-size: 0.6rem;
   }
   .card-reverse {
-    margin-bottom: 34px;
+    margin-bottom: 63px;
   }
 }
 
