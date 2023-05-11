@@ -491,6 +491,7 @@
     max-width: 560px;
   }
 }
+
 @media screen and (max-width: 889px) {
   .container-icons-languages-reverse {
     padding: 0;
@@ -500,6 +501,7 @@
   }
   .card {
     flex-direction: column;
+    margin-bottom: 58px;
   }
 
   .area-description {
@@ -532,6 +534,12 @@
   .conteiner-area-description p {
     font-size: 0.9rem;
   }
+  .sterilized-dynamic {
+    padding: 1rem 1.1rem;
+  }
+  .card {
+    margin-bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 563px) {
@@ -540,6 +548,10 @@
   }
   .sterilized-dynamic {
     padding: 1rem 1.1rem;
+  }
+  .container-icons-languages img {
+    width: 40px;
+    height: 40px;
   }
 }
 @media screen and (max-width: 538px) {
@@ -551,18 +563,21 @@
   .conteiner-area-description p {
     font-size: 0.6rem;
   }
+  .card {
+    margin-bottom: 34px;
+  }
 }
-
-@media screen and (max-width: 474px) {
-  .conteiner-area-description p {
-    font-size: 0.6rem;
+@media screen and (max-width: 441px) {
+  .container-icons-languages img {
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .container-icons-languages img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .conteiner-area-description p {
     font-size: 0.6rem;
@@ -576,6 +591,7 @@
     margin-top: 11px;
   }
 }
+
 /* reponsive Projects reverse */
 
 @media screen and (max-width: 1135px) {
@@ -692,6 +708,7 @@
   }
   .card-reverse {
     flex-direction: column;
+    margin-bottom: 58px;
   }
 
   .area-description-reverse {
@@ -724,6 +741,12 @@
   .conteiner-area-description-reverse p {
     font-size: 0.9rem;
   }
+  .sterilized-dynamic-reverse {
+    padding: 1rem 1.1rem;
+  }
+  .card-reverse {
+    margin-bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 563px) {
@@ -732,6 +755,10 @@
   }
   .sterilized-dynamic-reverse {
     padding: 1rem 1.1rem;
+  }
+  .container-icons-languages-reverse img {
+    width: 40px;
+    height: 40px;
   }
 }
 @media screen and (max-width: 538px) {
@@ -743,11 +770,22 @@
   .conteiner-area-description-reverse p {
     font-size: 0.6rem;
   }
+  .card-reverse {
+    margin-bottom: 34px;
+  }
 }
+
+@media screen and (max-width: 441px) {
+  .container-icons-languages-reverse img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .container-icons-languages-reverse img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .conteiner-area-description-reverse p {
     font-size: 0.6rem;
