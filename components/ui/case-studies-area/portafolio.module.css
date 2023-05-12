@@ -721,6 +721,15 @@
   .conteiner-area-description h2 {
     font-size: 0.7rem;
   }
+  @media screen and (max-width: 395px) {
+    .conteiner-area-description p {
+      font-size: 0.6rem;
+    }
+
+    .area-description {
+      margin-top: -4rem;
+    }
+  }
 }
 
 @media screen and (max-width: 355px) {
@@ -1025,6 +1034,16 @@
   }
   .conteiner-text-reverse {
     top: 5px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .conteiner-area-description-reverse p {
+    font-size: 0.6rem;
+  }
+
+  .area-description-reverse {
+    margin-top: -4rem;
   }
 }
 
