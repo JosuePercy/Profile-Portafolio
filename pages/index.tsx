@@ -1,21 +1,24 @@
 import { useEffect } from "react"
 import { Layout } from "@/components/layouts"
 
-import Inventory2Icon from '@mui/icons-material/Inventory2';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
 
 import { Container, Typography, Card, CardContent, CardMedia, CardHeader, Grid, CardActionArea, CardActions, Button } from "@mui/material";
 
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import ContactsIcon from '@mui/icons-material/Contacts';
 import ComputerIcon from '@mui/icons-material/Computer';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import CodeIcon from '@mui/icons-material/Code';
+import Groups2Icon from '@mui/icons-material/Groups';
+import LandslideIcon from '@mui/icons-material/Landslide';
+
+
 
 import { ProjectsPortfolioReverse, ProjectsPortfolio } from "@/components/ui/case-studies-area";
 import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
 import { BannerProfile } from "@/components/shared/Banner/BannerProfile";
 //import technologies from "@/components/ui/case-studies-area/technologies";
 import listPorject from "@/data/projects/projects.json"
+import { Technologies } from "@/components/shared/skills";
 
 
 const HomePage = () => {
@@ -48,39 +51,39 @@ const HomePage = () => {
             <Grid container marginTop={7} style={{ textAlign: 'center' }}>
               <Grid item xs={12} sm={6} md={4}>
                 <CardSpecialties
-                  title={"Institucional o de negocio"}
-                  description={'Marca presencia y muestra tus servicios, a tu equipo y ofrece oportunidades para hacer contacto.'}
-                  icon={<Inventory2Icon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
+                  title={"Trabajo en grupo"}
+                  description={'Analista y Creador de ideas, adaptación a diferentes ambientes laborales.'}
+                  icon={<Groups2Icon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
                 <CardSpecialties
-                  title={"Personal o portafolio"}
-                  description={'Muestra tus habilidades y trabajos previos para atraer clientes o empleadores.'}
+                  title={"Eficiencia de desarrollo de proyectos"}
+                  description={'Utilización de metodologías ágiles para optimizar el tiempo y recursos.'}
                   icon={<FileCopyIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
                 <CardSpecialties
-                  title={"E-commerce"}
-                  description={'Ofrece tus productos físicos o digitales y permite transacciónes en linea las 24hs del día.'}
+                  title={"Optimización de rendimiento"}
+                  description={'Mejora la velocidad y eficiencia de tu sitio web o aplicación para una mejor experiencia del usuario.'}
                   icon={<ShoppingCartIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
                 <CardSpecialties
-                  title={"Landing page"}
-                  description={'Informa a tus visitantes sobre un producto específico, con el objetivo de motivarlo a tomar una cierta acción.'}
-                  icon={<ContactsIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
+                  title={"Mis areas"}
+                  description={'Especialización en HTML, CSS, JavaScript,TypeScript y frameworks como NextJs, tengo una sólida comprensión de diseño, y las mejores practicas de UI.'}
+                  icon={<LandslideIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
                 <CardSpecialties
-                  title={"Aplicacion web"}
-                  description={'Tu sito web es tu producto y por eso debe contar con la últimas tecnologias web.'}
+                  title={"Aplicaciones web"}
+                  description={'Proyectos sólidos, rendimiento excelente, facilidad de mantenimiento y escalable a largo plazo'}
                   icon={<ComputerIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
               </Grid>
               <Grid item xs={12} sm={6} md={4}>
                 <CardSpecialties
-                  title={"Blog personal"}
-                  description={'Comparte experiencias personales o pasatiempos para comunicar a otros usuarios que estén interesados.'}
-                  icon={<AccountCircleIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
+                  title={"Código limpio estructurado y mantenible"}
+                  description={'Buenas prácticas, estándares de la industria actualizados y funcional.'}
+                  icon={<CodeIcon sx={{ color: 'rgb(0 119 255)' }} fontSize="large" />} />
               </Grid>
             </Grid>
           </section>
@@ -117,6 +120,18 @@ const HomePage = () => {
               })
             }
           </section>
+          <section className="skills">
+            <Typography variant="h3" component="h2" style={{
+              textAlign: "center",
+              marginBottom: 75,
+              fontWeight: '700',
+              fontFamily: 'Saira,sans-serif'
+            }}
+              sx={{ typography: { sm: 'h4', xs: 'h5', md: 'h3' } }}>
+              Skills
+            </Typography>
+            <Technologies />
+          </section >
         </Container>
       </Layout >
     </>

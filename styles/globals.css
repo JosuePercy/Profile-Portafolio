@@ -60,3 +60,6 @@ body {
     transform: rotate(360deg);
   }
 }
+.skills {
+  margin-bottom: 75px;
+}

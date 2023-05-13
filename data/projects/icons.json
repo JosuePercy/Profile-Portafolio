@@ -1,0 +1,72 @@
+[
+  {
+    "name": "HTML",
+    "link": "https://developer.mozilla.org/es/docs/Web/HTML",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg"
+  },
+  {
+    "name": "CSS",
+    "link": "https://developer.mozilla.org/es/docs/Web/CSS",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg"
+  },
+  {
+    "name": "JavaScript",
+    "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
+  },
+  {
+    "name": "React",
+    "link": "https://react.dev/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg"
+  },
+  {
+    "name": "TypeScript",
+    "link": "https://www.typescriptlang.org/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg"
+  },
+  {
+    "name": "Postgresql",
+    "link": "https://www.postgresql.org/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original.svg"
+  },
+  {
+    "name": "Mysql",
+    "link": "https://www.mysql.com/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg"
+  },
+  {
+    "name": "git",
+    "link": "https://git-scm.com/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg"
+  },
+  {
+    "name": "GitHub",
+    "link": "https://github.com/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"
+  },
+  {
+    "name": "Next.js",
+    "link": "https://nextjs.org/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg"
+  },
+  {
+    "name": "Node.js",
+    "link": "https://nodejs.org/es",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg"
+  },
+  {
+    "name": "NextUI",
+    "link": "https://nextui.org/",
+    "url": "https://images.opencollective.com/nextui/93858ec/logo/256.png"
+  },
+  {
+    "name": "Material UI",
+    "link": "https://mui.com/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg"
+  },
+  {
+    "name": "Java",
+    "link": "https://www.java.com/es/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/java/java-original.svg"
+  }
+]

@@ -1,8 +1,8 @@
 [
   {
     "outstanding": "Featured Project",
-    "title": "Maquetacion project",
-    "description": "Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout.",
+    "title": "Diseño de Pagina",
+    "description": "Elaboración de una Maquetación de una pagina web, a principios de mi aprendizaje como Desarrollador Web, realize esta pagina con conocimientos basicos de HTML,CSS, que daba ententer una pagina de ventas.",
     "technologies": [
       {
         "name": "HTML5",
@@ -20,8 +20,8 @@
   },
   {
     "outstanding": "Featured Project",
-    "title": "Proyect List Pokemon",
-    "description": "Crypto and Wallet Ul kit can be use for Crypto and Wallet theme application in android and ios device. It contain 6 Screens with different type of UI, Crypto and Wallet Ul kit can be save your time to code all Front end layout.",
+    "title": "Listado de Pokemones",
+    "description": "Esta pagina muestra tarjetas de pokemones con los que contiene una acción de click, que lleva a una ventana de sprites de la tarjeta escogida, donde puedes guardar en tus favoritos con hacer click en el boton que tiene esa accion y muestra una exploción de confetti.",
     "technologies": [
       {
         "name": "HTML5",

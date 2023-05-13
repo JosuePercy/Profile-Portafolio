@@ -1,0 +1,19 @@
+.skills-container-parent {
+  /* background-color: red; */
+}
+
+.display-container-skills {
+  /* background-color: blue; */
+  margin: 0 auto;
+}
+
+.conteiner-skills {
+  /* background-color: yellow; */
+  max-width: 1136px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  gap: 18px 27px;
+  font-family: "Saira";
+}
