@@ -8,7 +8,6 @@
 }
 
 .conteiner-skills {
-  /* background-color: yellow; */
   max-width: 1136px;
   display: flex;
   flex-wrap: wrap;
@@ -16,4 +15,5 @@
   justify-content: center;
   gap: 18px 27px;
   font-family: "Saira";
+  padding: 0px 20px;
 }

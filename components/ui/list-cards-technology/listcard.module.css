@@ -119,3 +119,65 @@
   max-width: 100%;
   max-height: 100%;
 }
+
+@media screen and (max-width: 1191px) {
+  .technology-items {
+    width: 247px;
+  }
+}
+@media screen and (max-width: 924px) {
+  .technology-items {
+    width: 294px;
+  }
+}
+@media screen and (max-width: 722px) {
+  .technology-items {
+    width: 274px;
+  }
+}
+@media screen and (max-width: 683px) {
+  .technology-items {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 634px) {
+  .technology-items {
+    width: 227px;
+  }
+}
+
+@media screen and (max-width: 588px) {
+  .technology-items {
+    width: 207px;
+  }
+}
+@media screen and (max-width: 548px) {
+  .technology-items {
+    width: 191px;
+  }
+}
+@media screen and (max-width: 516px) {
+  .technology-items {
+    width: 177px;
+  }
+}
+@media screen and (max-width: 488px) {
+  .technology-items {
+    width: 164px;
+  }
+}
+@media screen and (max-width: 462px) {
+  .technology-items {
+    width: 154px;
+  }
+}
+@media screen and (max-width: 442px) {
+  .technology-items {
+    width: 141px;
+  }
+}
+@media screen and (max-width: 417px) {
+  .technology-items {
+    width: 305px;
+  }
+}
