@@ -1,0 +1,92 @@
+.footer {
+  background-color: #000;
+}
+.display-footer {
+  margin: auto;
+  max-width: 1320px;
+  /* background-color: blue; */
+  padding: 1.7rem 2rem;
+  justify-content: space-between;
+  display: flex;
+}
+.logo-footer {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  margin: auto;
+}
+.display-networks {
+  display: flex;
+  margin-top: 17px;
+  gap: 4px;
+  justify-content: center;
+}
+
+.display-center {
+  max-width: 6rem;
+}
+.display-center img {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-2 h1 {
+  color: white;
+  position: relative;
+  font-family: "Saira";
+  font-size: 20px;
+}
+
+.column-2 h1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 82px;
+  height: 3px;
+  background: linear-gradient(
+    to left top,
+    #207ede,
+    #207ede,
+    #207ede,
+    #207ede,
+    #207ede
+  );
+}
+.column-2 h1::after {
+  content: "";
+  position: absolute;
+  left: 59px;
+  bottom: -4px;
+  height: 3px;
+  background: #000000;
+  width: 8px;
+}
+
+.mold-circular-icon {
+  width: 27px;
+  height: 27px;
+  background-color: rgb(0 119 255);
+  border: 50%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colun span {
+  color: white;
+  font-family: saira;
+}
+
+.colun {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.conteiner-contacts {
+  gap: 8px;
+  display: grid;
+}

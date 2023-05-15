@@ -11,7 +11,6 @@ type ITechnologies = {
 }
 export const Listcardstechnology = ({ name, url, link }: ITechnologies) => {
     return (
-
         <div className={styles["technology-items"]} >
             <Link
                 href={link}>

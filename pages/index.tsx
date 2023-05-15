@@ -19,6 +19,7 @@ import { BannerProfile } from "@/components/shared/Banner/BannerProfile";
 //import technologies from "@/components/ui/case-studies-area/technologies";
 import listPorject from "@/data/projects/projects.json"
 import { Technologies } from "@/components/shared/skills";
+import { Footer } from "@/components/shared/footer/Footer";
 
 
 const HomePage = () => {
@@ -133,6 +134,9 @@ const HomePage = () => {
             <Technologies />
           </section >
         </Container>
+        <footer>
+          <Footer />
+        </footer>
       </Layout >
     </>
   )
