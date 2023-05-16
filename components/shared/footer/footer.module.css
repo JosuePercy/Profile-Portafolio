@@ -37,6 +37,7 @@
   position: relative;
   font-family: "Saira";
   font-size: 20px;
+  margin: 0;
 }
 
 .column-2 h1::before {
@@ -66,14 +67,15 @@
 }
 
 .mold-circular-icon {
-  width: 27px;
-  height: 27px;
-  background-color: rgb(0 119 255);
-  border: 50%;
-  border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #a2a2a2;
 }
 
 .colun span {
@@ -89,4 +91,14 @@
 .conteiner-contacts {
   gap: 8px;
   display: grid;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 651px) {
+  .display-footer {
+    flex-flow: column;
+  }
+  .column-2 {
+    margin-top: 29px;
+  }
 }

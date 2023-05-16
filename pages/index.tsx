@@ -11,12 +11,10 @@ import CodeIcon from '@mui/icons-material/Code';
 import Groups2Icon from '@mui/icons-material/Groups';
 import LandslideIcon from '@mui/icons-material/Landslide';
 
-
-
 import { ProjectsPortfolioReverse, ProjectsPortfolio } from "@/components/ui/case-studies-area";
 import { CardSpecialties } from "@/components/ui/CardViewSpecialties/CardSpecialties";
 import { BannerProfile } from "@/components/shared/Banner/BannerProfile";
-//import technologies from "@/components/ui/case-studies-area/technologies";
+
 import listPorject from "@/data/projects/projects.json"
 import { Technologies } from "@/components/shared/skills";
 import { Footer } from "@/components/shared/footer/Footer";
@@ -24,22 +22,12 @@ import { Footer } from "@/components/shared/footer/Footer";
 
 const HomePage = () => {
 
-
-  useEffect(() => {
-    console.log("project", listPorject)
-    return () => {
-
-    }
-  }, [])
-
-
   return (
     <>
       <Layout >
         <BannerProfile />
-
         <Container style={{ padding: '0px 12px' }}>
-          <section className="container-ability">
+          <section className="container-ability" id="servicios">
             <Typography variant="h3" component="h2" style={{
               textAlign: "center",
               marginBottom: 15,
@@ -88,7 +76,7 @@ const HomePage = () => {
               </Grid>
             </Grid>
           </section>
-          <section>
+          <section id="portafolios">
             <Typography variant="h3" component="h2" style={{
               textAlign: "center",
               marginBottom: 75,
@@ -121,7 +109,7 @@ const HomePage = () => {
               })
             }
           </section>
-          <section className="skills">
+          <section className="skills" id="skills">
             <Typography variant="h3" component="h2" style={{
               textAlign: "center",
               marginBottom: 75,
@@ -134,7 +122,7 @@ const HomePage = () => {
             <Technologies />
           </section >
         </Container>
-        <footer>
+        <footer id="contacto">
           <Footer />
         </footer>
       </Layout >

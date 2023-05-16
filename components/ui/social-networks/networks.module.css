@@ -3,12 +3,13 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 14px;
-  height: 14px;
+  width: 19px;
+  height: 21px;
   /* border-radius: 50%; */
   overflow: hidden;
   background-color: #a2a2a2;
   /* background: rgb(0 119 255); */
+  /* background: rgb(0 119 255);
 }
 .container-circula img {
   width: 100%;
@@ -22,8 +23,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 28px;
-  height: 28px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   overflow: hidden;
   background-color: #a2a2a2;
@@ -31,4 +32,9 @@
 .align-circular-container:hover,
 .align-circular-container:hover > .container-circular {
   background-color: rgb(0 119 255);
+}
+
+.container-circular img {
+  width: 22px;
+  height: 22px;
 }

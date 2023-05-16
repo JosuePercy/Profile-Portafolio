@@ -1,6 +1,6 @@
 
-import { useEffect } from "react"
 import { NavBar } from "../shared/menu"
+
 type Props = {
     children: any
 }

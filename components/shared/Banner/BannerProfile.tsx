@@ -4,7 +4,7 @@ import { ButtomConfetti } from '@/components/ui';
 
 export const BannerProfile = () => {
     return (
-        <div className={styles['main-header']} >
+        <div className={styles['main-header']}>
             <div className={styles['align-elements-center']}>
                 <div className={styles['row-align-items-center']}>
                     <div className={styles['introduction-profile']}>
