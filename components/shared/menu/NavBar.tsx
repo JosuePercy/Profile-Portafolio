@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 
 import styles from "./menu.module.css";
 
@@ -10,16 +10,15 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const menuItems = [
-    { text: 'Inicio', href: '/' },
+    { text: 'Inicio', href: '' },
     { text: 'Servicios', href: '#servicios' },
-    { text: 'Portafolios', href: '/#portafolios' },
-    { text: 'Skills', href: '/#skills' },
-    { text: 'Contactame', href: '/#contacto' },
+    { text: 'Portafolios', href: '#portafolios' },
+    { text: 'Skills', href: '#skills' },
+    { text: 'Contactame', href: '#contacto' },
 ]
 
 //Funcion para responsive movil, adaptable a cualquier dispositivo
 export const NavBar = () => {
-
     const [isOpen, setIsOpen] = useState(false)
     const [isScroll, setIsScroll] = useState(false)
     const onClickMenu = () => {
@@ -34,6 +33,9 @@ export const NavBar = () => {
             setIsScroll(false)
         }
     }, []);
+
+
+
 
 
     useEffect(() => {

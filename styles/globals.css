@@ -1,7 +1,12 @@
 :root {
   --main-bg-color-primay: rgb(0 119 255);
 }
-
+* {
+  scroll-behavior: smooth;
+}
+a[href="#servicios"] ~ html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;

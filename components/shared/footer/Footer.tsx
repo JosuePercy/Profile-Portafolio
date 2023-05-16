@@ -5,6 +5,8 @@ import { Networks } from '@/components/ui/social-networks';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 
+
+
 export const Footer = () => {
     const redesData = [
         { redes: '../../../image/Networks/icon-tweet.png', link: 'https://twitter.com/JosuePercy12' },
@@ -42,7 +44,6 @@ export const Footer = () => {
                                 {
                                     <PhoneIcon fontSize='inherit' sx={{ color: 'white' }} />
                                 }
-
                             </div>
                             <span>+51 998 166 826</span>
                         </div>
