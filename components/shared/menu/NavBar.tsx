@@ -14,7 +14,6 @@ const menuItems = [
     { text: 'Servicios', href: '#servicios' },
     { text: 'Portafolios', href: '#portafolios' },
     { text: 'Skills', href: '#skills' },
-    { text: 'Contactame', href: '#contacto' },
 ]
 
 //Funcion para responsive movil, adaptable a cualquier dispositivo
@@ -33,10 +32,6 @@ export const NavBar = () => {
             setIsScroll(false)
         }
     }, []);
-
-
-
-
 
     useEffect(() => {
         window.addEventListener("scroll", onScroll, { passive: true });

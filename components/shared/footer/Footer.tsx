@@ -47,6 +47,7 @@ export const Footer = () => {
                             </div>
                             <span>+51 998 166 826</span>
                         </div>
+
                     </div>
                 </div>
             </div>
