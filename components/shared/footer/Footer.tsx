@@ -17,7 +17,7 @@ export const Footer = () => {
     ];
 
     return (
-        <div className={styles.footer}>
+        <footer className={styles.footer}>
             <div className={styles['display-footer']}>
                 <div className={styles['display-center column-1']}>
                     <img className={styles['logo-footer']} src='../../../image/3.png' />
@@ -47,10 +47,9 @@ export const Footer = () => {
                             </div>
                             <span>+51 998 166 826</span>
                         </div>
-
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
