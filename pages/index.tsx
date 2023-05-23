@@ -98,6 +98,7 @@ const HomePage = () => {
                       technologies={project.technologies}
                       key={index}
                       link={project.link}
+                      deploy={project.deploy}
                     />
                   } else {
                     return <ProjectsPortfolioReverse
@@ -107,6 +108,7 @@ const HomePage = () => {
                       technologies={project.technologies}
                       key={index}
                       link={project.link}
+                      deploy={project.deploy}
                     />
                   }
                 })

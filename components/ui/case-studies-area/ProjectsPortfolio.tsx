@@ -13,10 +13,10 @@ type Props = {
   description: string;
   technologies: technology[];
   link?: string
-  //  agregar propierda reverse
+  deploy?: string
 }
 
-export const ProjectsPortfolio = ({ outstanding, title, description, technologies, link }: Props) => {
+export const ProjectsPortfolio = ({ outstanding, title, description, technologies, link, deploy }: Props) => {
   return (
     <section>
       <div className={styles['card']}>
@@ -55,8 +55,7 @@ export const ProjectsPortfolio = ({ outstanding, title, description, technologie
           </div>
         </div>
         <div className={styles['area-briefcase']}>
-          <Link href={'https://page-layout-green.vercel.app/'} target="_blank">
-
+          <Link href={`${deploy}`} target="_blank">
             <img src={link} />
             <AddLinkIcon className={styles['icon-link']
             } fontSize='large' />
