@@ -15,6 +15,11 @@
     "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
   },
   {
+    "name": "Java",
+    "link": "https://www.java.com/es/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/java/java-original.svg"
+  },
+  {
     "name": "React",
     "link": "https://react.dev/",
     "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg"
@@ -33,6 +38,11 @@
     "name": "Mysql",
     "link": "https://www.mysql.com/",
     "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg"
+  },
+  {
+    "name": "MongoDB",
+    "link": "https://www.mongodb.com/docs/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg"
   },
   {
     "name": "git",
@@ -65,8 +75,8 @@
     "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg"
   },
   {
-    "name": "Java",
-    "link": "https://www.java.com/es/",
-    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/java/java-original.svg"
+    "name": "Docker",
+    "link": "https://docs.docker.com/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg"
   }
 ]

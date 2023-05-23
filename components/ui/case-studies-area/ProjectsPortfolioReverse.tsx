@@ -11,16 +11,17 @@ type Props = {
     title: string;
     description: string;
     technologies: technology[];
+    link?: string
 }
 
 
-export const ProjectsPortfolioReverse = ({ outstanding, title, description, technologies }: Props) => {
+export const ProjectsPortfolioReverse = ({ outstanding, title, description, technologies, link }: Props) => {
     return (
         <section>
             <div className={styles['card-reverse']}>
                 <div className={styles['area-briefcase-reverse']}>
                     <Link href={'https://proyect-list.vercel.app/'} target="_blank">
-                        <img src='../../../image/card-project/project-list.png' />
+                        <img src={link} />
                         <AddLinkIcon className={styles['icon-link-reverse']
                         } fontSize='large' />
                     </Link>

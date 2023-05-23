@@ -3,6 +3,7 @@
     "outstanding": "Featured Project",
     "title": "Diseño de Pagina",
     "description": "Elaboración de una Maquetación de una pagina web, a principios de mi aprendizaje como Desarrollador Web, realize esta pagina con conocimientos basicos de HTML,CSS, que daba ententer una pagina de ventas.",
+    "link": "/image/card-project/portfolio3.png",
     "technologies": [
       {
         "name": "HTML5",
@@ -22,6 +23,7 @@
     "outstanding": "Featured Project",
     "title": "Listado de Pokemones",
     "description": "Esta pagina muestra tarjetas de pokemones con los que contiene una acción de click, que lleva a una ventana de sprites de la tarjeta escogida, donde puedes guardar en tus favoritos con hacer click en el boton que tiene esa accion y muestra una exploción de confetti.",
+    "link": "/image/card-project/project-list.png",
     "technologies": [
       {
         "name": "HTML5",
@@ -46,6 +48,38 @@
       {
         "name": "CSS3",
         "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg"
+      }
+    ]
+  },
+  {
+    "outstanding": "Featured Project",
+    "title": "TaskGenerator",
+    "description": "Esta pagina muestra tarjetas de pokemones con los que contiene una acción de click, que lleva a una ventana de sprites de la tarjeta escogida, donde puedes guardar en tus favoritos con hacer click en el boton que tiene esa accion y muestra una exploción de confetti.",
+    "link": "/image/card-project/openJura.png",
+    "technologies": [
+      {
+        "name": "HTML5",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg"
+      },
+      {
+        "name": "Material UI",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg"
+      },
+      {
+        "name": "Next.js",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "MongoDB",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg"
+      },
+      {
+        "name": "Docker",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg"
       }
     ]
   }

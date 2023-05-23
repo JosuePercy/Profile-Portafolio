@@ -97,6 +97,7 @@ const HomePage = () => {
                       description={project.description}
                       technologies={project.technologies}
                       key={index}
+                      link={project.link}
                     />
                   } else {
                     return <ProjectsPortfolioReverse
@@ -105,6 +106,7 @@ const HomePage = () => {
                       description={project.description}
                       technologies={project.technologies}
                       key={index}
+                      link={project.link}
                     />
                   }
                 })
