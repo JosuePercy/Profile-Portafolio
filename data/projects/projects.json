@@ -53,8 +53,8 @@
   },
   {
     "outstanding": "Featured Project",
-    "title": "TaskGenerator",
-    "description": "Esta pagina muestra tarjetas de pokemones con los que contiene una acción de click, que lleva a una ventana de sprites de la tarjeta escogida, donde puedes guardar en tus favoritos con hacer click en el boton que tiene esa accion y muestra una exploción de confetti.",
+    "title": "TaskStates",
+    "description": "Muestra los estados de las tareas ingresadas, 'Pendientes', 'En progreso', 'Completadas', administración de tareas en desarrollo, permite borrar tareas, editar tareas, cambiar el estado en el que se encuentra",
     "link": "/image/card-project/openJura.png",
     "technologies": [
       {
