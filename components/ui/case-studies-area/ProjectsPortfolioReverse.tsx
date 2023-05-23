@@ -11,17 +11,17 @@ type Props = {
     title: string;
     description: string;
     technologies: technology[];
-    link?: string;
-    deploy: string
+    link: string;
+    urlProject: string
 }
 
 
-export const ProjectsPortfolioReverse = ({ outstanding, title, description, technologies, link, deploy }: Props) => {
+export const ProjectsPortfolioReverse = ({ outstanding, title, description, technologies, link, urlProject }: Props) => {
     return (
         <section>
             <div className={styles['card-reverse']}>
                 <div className={styles['area-briefcase-reverse']}>
-                    <Link href={deploy} target="_blank">
+                    <Link href={`${urlProject}`} target="_blank">
                         <img src={link} />
                         <AddLinkIcon className={styles['icon-link-reverse']
                         } fontSize='large' />

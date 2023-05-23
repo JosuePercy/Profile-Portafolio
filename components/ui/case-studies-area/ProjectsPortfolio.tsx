@@ -12,11 +12,11 @@ type Props = {
   title: string;
   description: string;
   technologies: technology[];
-  link?: string
-  deploy?: string
+  link: string;
+  urlProject: string
 }
 
-export const ProjectsPortfolio = ({ outstanding, title, description, technologies, link, deploy }: Props) => {
+export const ProjectsPortfolio = ({ outstanding, title, description, technologies, link, urlProject }: Props) => {
   return (
     <section>
       <div className={styles['card']}>
@@ -55,7 +55,7 @@ export const ProjectsPortfolio = ({ outstanding, title, description, technologie
           </div>
         </div>
         <div className={styles['area-briefcase']}>
-          <Link href={`${deploy}`} target="_blank">
+          <Link href={urlProject} target="_blank">
             <img src={link} />
             <AddLinkIcon className={styles['icon-link']
             } fontSize='large' />

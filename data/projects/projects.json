@@ -4,7 +4,7 @@
     "title": "Diseño de Pagina",
     "description": "Elaboración de una Maquetación de una pagina web, a principios de mi aprendizaje como Desarrollador Web, realize esta pagina con conocimientos basicos de HTML,CSS, que daba ententer una pagina de ventas.",
     "link": "/image/card-project/portfolio3.png",
-    "deploy": "https://page-layout-green.vercel.app/",
+    "urlProject": "https://page-layout-green.vercel.app/",
     "technologies": [
       {
         "name": "HTML5",
@@ -25,7 +25,7 @@
     "title": "Listado de Pokemones",
     "description": "Esta pagina muestra tarjetas de pokemones con los que contiene una acción de click, que lleva a una ventana de sprites de la tarjeta escogida, donde puedes guardar en tus favoritos con hacer click en el boton que tiene esa accion y muestra una exploción de confetti.",
     "link": "/image/card-project/project-list.png",
-    "deploy": "https://proyect-list.vercel.app/",
+    "urlProject": "https://proyect-list.vercel.app/",
     "technologies": [
       {
         "name": "HTML5",
@@ -58,7 +58,7 @@
     "title": "TaskStates",
     "description": "Muestra los estados de las tareas ingresadas, 'Pendientes', 'En progreso', 'Completadas', administración de tareas en desarrollo, permite borrar tareas, editar tareas, cambiar el estado en el que se encuentra",
     "link": "/image/card-project/openJura.png",
-    "deploy": "https://task-generator-one.vercel.app/",
+    "urlProject": "https://task-generator-one.vercel.app/",
     "technologies": [
       {
         "name": "HTML5",
