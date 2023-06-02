@@ -374,6 +374,12 @@
     padding: 11px 40px !important;
   }
 }
+@media screen and (max-width: 307px) {
+  .container-buttom {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .main-header {
   /* background-color: red; */
