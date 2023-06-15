@@ -65,6 +65,11 @@
     "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg"
   },
   {
+    "name": "Nest.js",
+    "link": "https://nestjs.com/",
+    "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nestjs/nestjs-plain.svg"
+  },
+  {
     "name": "NextUI",
     "link": "https://nextui.org/",
     "url": "https://images.opencollective.com/nextui/93858ec/logo/256.png"
