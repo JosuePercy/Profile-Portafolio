@@ -22,7 +22,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta property="og:title" content="Portafolio" />
-          <meta property="og:image" content={`https://profile-portafolio.vercel.app/image/viewpage.png`} />
+          <meta property="og:image" content="https://profile-portafolio.vercel.app/image/viewpage.png" />
         </Head>
         <body>
           <Main />
