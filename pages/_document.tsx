@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
-          <meta property="./../public/image/viewpage.png" content="https://profile-portafolio.vercel.app/" />
+          <meta property="./../image/viewpage.png" content="https://profile-portafolio.vercel.app/" />
           <link
             href="https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap"
             rel="stylesheet"
