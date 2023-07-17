@@ -1,8 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import img from '../public/image/portada-header.png';
 
-const origin = typeof window === "undefined" ? "" : window.location.origin;
-console.log('origin ==>', origin);
 class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -22,7 +19,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta property="og:title" content="Portafolio" />
-          <meta property="og:image" content="https://profile-portafolio.vercel.app/image/viewpage.png" />
+          <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BASE_URL}/image/viewpage.png`} />
         </Head>
         <body>
           <Main />
