@@ -13,13 +13,7 @@ export const CardSpecialties = ({ title, description, icon }: Props) => {
             sx={{ marginBottom: 10 }}
             style={{ boxShadow: 'inherit', padding: '0px 40px' }}>
             <CardHeader
-                avatar={
-                    icon
-                    // <Inventory2Icon color="info" fontSize="large" />
-                    // <div className="card-img-icon">
-                    //   <img src='../../../image/3.png' />
-                    // </div>
-                }
+                avatar={icon}
                 className="card-icon"
                 style={{ flexDirection: 'column' }}
             />
