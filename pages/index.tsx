@@ -20,6 +20,7 @@ import { Technologies } from "@/components/shared/skills";
 import { Footer } from "@/components/shared/footer/Footer";
 
 
+
 const HomePage = () => {
   return (
     <>

@@ -85,5 +85,38 @@
         "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg"
       }
     ]
+  },
+  {
+    "outstanding": "Featured Project",
+    "title": "Sistema Geolocalización",
+    "description": "Interfaz que muestra las tiendas asignadas en el mapa. Esto permite que los conductores vean su ubicación y las tiendas que deben atender. Además, los conductores podran registrar las tiendas que deben visitar en su ruta. Esto mejoró la planificación y ejecución de las entregas diarias.",
+    "link": "/image/card-project/tambo.png",
+    "urlProject": "https://next-js-locate-stores-tambo-frontend.vercel.app/maps",
+    "technologies": [
+      {
+        "name": "HTML5",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg"
+      },
+      {
+        "name": "TypeScript",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "Next.js",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original.svg"
+      },
+      {
+        "name": "Nest.js",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nestjs/nestjs-plain.svg"
+      },
+      {
+        "name": "Material UI",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/materialui/materialui-original.svg"
+      },
+      {
+        "name": "Mysql",
+        "url": "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mysql/mysql-original.svg"
+      }
+    ]
   }
 ]
