@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <Component {...pageProps} />
     </>
   )
