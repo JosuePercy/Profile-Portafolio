@@ -1,8 +1,10 @@
 /* Encabezado del menú */
 .main-header {
   height: 100vh;
-  background: -webkit-linear-gradient(#18181b3b, #18181b36, #18181b6d),
-    url(../../../public/image/porfoliopreview.jpg);
+  /* background: -webkit-linear-gradient(#18181b, #18181b, #01011cf5),
+    url(../../../public/image/porfoliopreview.jpg); */
+  background: linear-gradient(#18181b, #18181b, rgba(1, 1, 28, 0.96));
+
   /* background-color: green; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -440,7 +442,7 @@
   animation: border-transform 10s linear infinite alternate forwards;
   width: 92% !important;
   transform: translateX(0px);
-  animation: float 6s ease-in-out infinite;
+  /* animation: float 6s ease-in-out infinite; */
 }
 
 @keyframes float {
