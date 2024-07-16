@@ -22,6 +22,7 @@ import { Footer } from "@/components/shared/footer/Footer";
 
 
 const HomePage = () => {
+  
   return (
     <>
       <Layout >

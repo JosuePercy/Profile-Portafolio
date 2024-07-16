@@ -8,12 +8,12 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 
 export const Footer = () => {
+
+    
     const redesData = [
         { redes: '../../../image/Networks/icon-tweet.png', link: 'https://twitter.com/JosuePercy12' },
         { redes: '../../../image/Networks/icons-github.png', link: 'https://github.com/JosuePercy' },
         { redes: '../../../image/Networks/icons8-linkedin-30.png', link: 'https://www.linkedin.com/in/josuehuallullo/' },
-
-        // Agrega más objetos para cada red que desees mostrar
     ];
 
     return (
