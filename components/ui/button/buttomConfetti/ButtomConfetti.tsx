@@ -9,13 +9,13 @@ export const ButtomConfetti = () => {
     console.log('Descargando CV...');
 
 
-    fetch(`/download/CV/cv-Josue-Huallullo.pdf`)
+    fetch(`/download/CV/cv-Josue-Huallullo.v3.pdf`)
       .then(response => response.blob())
       .then(blob => {
         const url = URL.createObjectURL(blob)
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'cv-Josue-Huallullo.pdf';
+        a.download = 'cv-Josue-Huallullo.v3.pdf';
         a.style.display = 'none'; // Oculta el enlace del usuarios
         document.body.appendChild(a); // Agrega el enlace al documento
         a.click(); // Inicia la descarga del archivo
