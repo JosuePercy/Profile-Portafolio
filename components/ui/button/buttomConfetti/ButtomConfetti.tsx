@@ -9,7 +9,7 @@ export const ButtomConfetti = () => {
     console.log('Descargando CV...');
 
 
-    fetch(`/download/CV/cv-Josue-Huallullo.v3.pdf`)
+    fetch(`/download/CV/cv-Josue-Huallullo.v4.pdf`)
       .then(response => response.blob())
       .then(blob => {
         const url = URL.createObjectURL(blob)
